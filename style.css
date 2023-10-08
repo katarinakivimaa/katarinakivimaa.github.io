@@ -19,28 +19,58 @@ p {
     color: rgb(85,85,85);
 }
 
+img {
+    pointer-events: none;
+}
+
+
 /*transistion*/
 
 a, .btn {
     transition: all 300ms ease;
 }
 
+
+/*smartnav*/
+
+.smartnav {
+    display: flex;
+    
+}
+
+.stretch-arc {
+    height: 2vh;
+} 
+
+.stretch-arc .arc {
+    position: relative;
+    width: 100%;
+    margin-top: -2vh;
+
+}
+
+
 /*desktop nav */
+
+
 
 nav, .nav-links {
     display: flex;
 }
 
+
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    width: 100%;
+    position: absolute;
 }
 
 .nav-links {
     gap: 2rem;
     list-style: none;
     font-size: 1.5rem;
+
 }
 
 a {
@@ -58,6 +88,7 @@ a:hover {
 
 .logo {
     font-size: 2rem;
+
 }
 
 .logo:hover {
