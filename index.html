@@ -10,7 +10,13 @@
     
 </head>
 <body>
-    <div class="stretch-arc"><img class="arc" src="./ass/arc-bg-light-blue.svg" width="100%" height="auto" alt=""></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/Flip.min.js" integrity="sha512-AWDq5V1aZW5392Wm63Y2qUKK5MuksXgQVx4YMx5LqLOk4Tnzu2aSNyd/Uqwil/kIm9pikPDk6B626B7H3vq1GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    
+    <div class="stretch-arc"><img class="" src="./ass/arc-bg-light-blue.svg" width="100%" height="auto" alt=""></div>
     
     <nav id="desktop-nav" >
         <div class="logo d-flex align-items-center gap-2">
@@ -18,18 +24,20 @@
             Smart Home
         
         </div>
-        <div>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <div class="nav-item">
+                    <li><a href="#">Home</a></li>
+                    <div class="active-nav"></div>
+                </div>
+                <div class="nav-item">
+                    <li><a href="#">Features</a></li>
+                </div>
+                <div class="nav-item">
+                    <li><a href="#">Support</a></li>
+                </div>
             </ul>
-        </div>
-        <div class="getting-started-btn btn btn-primary">
-
-            
-
+        <div class="btn-getting-started">
+            <button>Getting Started</button>
         </div>
     </nav>
     <nav id="hamburger-nav">
@@ -48,6 +56,57 @@
         </div>
     </div>
     </nav>
+
+    <section id="hero">
+
+        <div class="hero container-fluid row">
+            <div class="col">
+                <ul>
+                    <h2>The only ONE <br>you need!</h2>
+                    <h5>Bring comfort to your home with Smart Home. <br> All of your smart devices in one app.</h5>
+                    <div class="btn-download">
+                        <button>Download</button>
+                    </div>
+                </ul>
+            </div>
+            <div class="col">
+                <img src="./ass/hero-mockup.png" alt="">
+            </div>
+            
+
+
+
+        </div>
+
+
+    </section>
+
+    <section id="companies">
+
+        <div class="logos">
+            <div class="logos-slide">
+                <img src="./ass/companies/arlo.svg" alt="">
+                <img src="./ass/companies/august-home.svg" alt="">
+                <img src="./ass/companies/layer-2.svg" alt="">
+                <img src="./ass/companies/netlight.svg" alt="">
+                <img src="./ass/companies/vector.svg" alt="">
+                <img src="./ass/companies/vector1.svg" alt="">
+                <img src="./ass/companies/vector3.svg" alt="">
+            </div>
+            <div class="logos-slide">
+                <img src="./ass/companies/arlo.svg" alt="">
+                <img src="./ass/companies/august-home.svg" alt="">
+                <img src="./ass/companies/layer-2.svg" alt="">
+                <img src="./ass/companies/netlight.svg" alt="">
+                <img src="./ass/companies/vector.svg" alt="">
+                <img src="./ass/companies/vector1.svg" alt="">
+                <img src="./ass/companies/vector3.svg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+
 
     <section id="profile">
         <div class="section__pic-container">
@@ -286,8 +345,6 @@
 
 
         
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     
 </body>
 </html>
