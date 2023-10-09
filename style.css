@@ -341,12 +341,12 @@ section {
 
 .logos:before {
     left: 0;
-    background: linear-gradient to( to left, rgba(255,255,255,0), white );
+    background: linear-gradient( to left, rgba(255,255,255,0), white );
 }
 
 .logos:after {
     right: 0;
-    background: linear-gradient to( to right, rgba(255,255,255,0), white );
+    background: linear-gradient( to right, rgba(255,255,255,0), white );
 }
 
 
@@ -360,8 +360,7 @@ section {
 }
 
 .logos-slide {
-    justify-content: center;
-    animation: 25s slide infinite linear;
+    animation: 35s slide infinite linear;
     display: inline-block;
 }
 
