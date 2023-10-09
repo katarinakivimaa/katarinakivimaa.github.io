@@ -317,9 +317,10 @@ section {
 
 /*LOGOS*/
 
-/* .companies {
+.companies {
     width: 100%;
-} */
+    justify-content: center;
+}
 
 .logos {
     overflow: hidden;
@@ -357,6 +358,7 @@ section {
 .logos-slide img {
     height: 5rem;
     margin: 0 3rem;
+    pointer-events: inherit;
 }
 
 .logos-slide {
@@ -366,7 +368,50 @@ section {
 
 
 
+.laptop {
+    position: relative;
+}
 
+video {
+    display: block;
+    height: 500px;
+    margin: auto;
+    border-radius: 3%;
+    position: relative;
+    /* width: 100%; */
+    pointer-events: none;
+  }
+  .video-wrap {
+    z-index: -1;
+    margin: 0 auto;
+    position: absolute;
+    /* width: 90%; */
+  }
+  /* .video-wrap:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  } */
+
+
+
+
+
+  /*experience*/
+
+.exerience {
+    width: 100%;
+    
+}
+
+
+
+
+  
 
 
 
