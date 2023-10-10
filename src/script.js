@@ -50,8 +50,51 @@ function videoScroll() {
 
 }
 
+function fade(element) {
+  var op = 1;  // initial opacity
+  var timer = setInterval(function () {
+      if (op <= 0.1){
+          clearInterval(timer);
+          element.style.display = 'none';
+      }
+      element.style.opacity = op;
+      element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+      op -= op * 0.1;
+  }, 50);
+}
 
 
+// var scrollTop     = $(window).scrollTop(),
+//     elementOffset = $('fade').offset().top,
+//     distance      = (elementOffset - scrollTop);
+
+
+// var text = document.getElementById('fade');
+// function fadeOutOnScroll(element) {
+//     if (!element) {
+//       return;
+//     }
+    
+//     var distanceToTop = window.scrollY + element.getBoundingClientRect().top;
+//     var elementHeight = element.offsetHeight;
+//     var scrollTop = document.documentElement.scrollTop;
+    
+//     var opacity = 1;
+    
+//     if (scrollTop > distanceToTop) {
+//       opacity = 1;
+//     }
+    
+//     if (opacity >= 0) {
+//       element.style.opacity = opacity;
+//     }
+//   }
+  
+//   function scrollHandler() {
+//     fadeOutOnScroll(text);
+//   }
+  
+//   window.addEventListener('scroll', scrollHandler);
 
 
 // function toggleMenu() {

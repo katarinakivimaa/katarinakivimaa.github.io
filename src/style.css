@@ -141,6 +141,7 @@ section {
     background: white;
     white-space: nowrap;
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .logos:before,
@@ -169,7 +170,7 @@ section {
 }
 
 .logos-slide img {
-    height: 5rem;
+    height: 4rem;
     margin: 0 3rem;
     pointer-events: inherit;
 }
@@ -195,7 +196,7 @@ video {
     position: absolute;
     /* width: 90%; */
   }
-  /* .video-wrap:after {
+  .video-wrap:after {
     content: '';
     display: block;
     position: absolute;
@@ -203,19 +204,48 @@ video {
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-  } */
+  }
+
+.laptop {
+
+}
 
 
 
-
+  .explain {
+    margin-left: 15%;
+    width: 70%;
+    align-self: center;
+    justify-self: center;
+  }
+  
 
   .explain .row {
-    /* padding-top: 12vh; */
+    display: flex;
+    justify-content: space-between;
+    min-height: 84vh;
+    align-items: center;
   }
 
 
 
+
+  /*phone section die */
+
+
 .Phone {
+    width: 70%;
+    margin-left: 15%;
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    top: 0;
+}
+
+
+.Phone-text {
+    width: 70%;
+    margin-left: 35%;
+    justify-content: center;
 
 }
 
@@ -225,7 +255,37 @@ video {
     height: 215px;
     width: 50%;
     overflow: hidden;
+
 }
-.bitchass-crop img {
-    width: 100%;
+
+.bitchass-crop{
+    position: sticky;
+    top: 0;
+}
+
+
+
+
+.hidden {
+    min-height: 60vh;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+
+
+
+
+/*download*/
+
+.download {
+    background-color: aquamarine;
 }
