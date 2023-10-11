@@ -6,10 +6,23 @@
     }
     to {
         
-        transform: translateX(-100%);
+        transform: translateX(-60%);
 
     }
 }
+
+@keyframes rotate {
+    0% {
+        transform: rotateZ();
+    }
+    50% {
+        transform: rotateZ(10deg);
+    }
+    0% {
+        transform: rotate();
+    }
+}
+
 
 .nav-item {
     position: relative;
@@ -27,6 +40,13 @@
 }
 
 
+
+.logo {
+  font-family: 'Michroma', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  
+}
 
 
 /*transistion*/
@@ -116,11 +136,32 @@ section {
     height: 90vh;
     /* padding-top: 5%;
     padding-left: 7%; */
+    
+}
+
+.hero .right {
+    float: right;
+    justify-content: space-between;
 }
 
 .hero .col img {
     width: 65%;
+    position: relative;
     height: auto;
+    animation-name: rotate;
+    animation-duration: 8s;
+    /* animation-timing-function: linear; */
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+
+}
+
+#plant-reverse {
+    z-index: -1;
+    animation-direction: reverse;
+    margin-top: -80%;
+    margin-left: -27%;
+    animation-duration: 7s;
     
 }
 
@@ -290,15 +331,9 @@ video {
 
 .download {
     margin-top:10vh ;
-    background-color: aquamarine;
     width: 70%;
     margin-left: 12%;
     padding-bottom: 4vh;
-}
-
-#flower {
-    
-
 }
 
 
