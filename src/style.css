@@ -206,11 +206,6 @@ video {
     transform: translate(-50%,-50%);
   }
 
-.laptop {
-
-}
-
-
 
   .explain {
     margin-left: 15%;
@@ -232,6 +227,9 @@ video {
 
   /*phone section die */
 
+  .phoneandtext {
+    overflow-y: hidden;
+  }
 
 .Phone {
     width: 70%;
@@ -249,21 +247,25 @@ video {
 
 }
 
+.first_para {
+    height: -30vh;
+}
 
-.bitchass-crop {
+
+#bitchass-crop {
     display: inline-block;
-    height: 215px;
-    width: 50%;
+    /* height: fit-content;
+    width: 50%; */
     overflow: hidden;
+    border-radius: 80px 300px 300px 80px;
 
 }
 
-.bitchass-crop{
-    position: sticky;
-    top: 0;
+
+#bitchass-crop img {
+    margin-top: -20px;
+
 }
-
-
 
 
 .hidden {
@@ -287,5 +289,24 @@ video {
 /*download*/
 
 .download {
+    margin-top:10vh ;
     background-color: aquamarine;
+    width: 70%;
+    margin-left: 12%;
+    padding-bottom: 4vh;
+}
+
+#flower {
+    
+
+}
+
+
+
+
+
+.blue-bg {
+    background-color: #313D5A;
+    width: 100%;
+    min-height: 200vh;
 }
