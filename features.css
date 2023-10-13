@@ -1,5 +1,13 @@
 
 
+.mill {
+    animation-name: rotate360;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: none;
+}
+
+
 .stretch-arc {
     opacity: 0;
 }
@@ -37,16 +45,17 @@ header {
     transform: translateZ(-9px) scale(2.0);
     opacity: 0.5;
     margin-top: -100%;
+    position: absolute;
     /* margin-left: -50%; */
 }
 
 .background {
     margin-left: -33%;
+
     transform: translateZ(-10px) scale(1.7);
 }
 
 .foreground {
-
     transform: translateZ(-5px) scale(1.6);
 }
 
@@ -61,18 +70,20 @@ header {
 
 .moon {
 transform: translateZ(-25px) scale(3.5) ;
-   margin-left: -54%;
+
    margin-top: -80%;
+   position: absolute;
 }
 
 .env {
-
-    transform: translateZ(-10px) scale(2) ;
+    margin-top: -50%;
+    margin-left: -3%;
+    transform: translateZ(-7px) scale(2) ;
     width: fit-content;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-bottom: -10%;
+    position: absolute;
 
 }
 

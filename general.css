@@ -168,6 +168,22 @@ meter {
 }
 
 
+
+@keyframes rotate360 {
+    0% {
+        transform: rotateZ();
+    }
+    50% {
+        transform: rotateZ(360deg);
+    }
+    100% {
+        transform: rotateZ(720deg);
+    }
+}
+
+
+
+
 .nav-item {
     position: relative;
     color: #000000;
