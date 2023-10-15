@@ -9,7 +9,6 @@
 }
 
 .hero .right {
-    float: right;
     justify-content: space-between;
 }
 
@@ -196,6 +195,7 @@ video {
     width: 70%;
     margin-left: 35%;
     justify-content: center;
+    z-index: -1;
 
 }
 

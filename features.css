@@ -24,6 +24,14 @@
 
 
 
+
+
+
+
+
+
+
+
 .wrapper    {
     height: 130vh;
     overflow-y: auto;
@@ -41,23 +49,115 @@ header {
     z-index: -1;
 }
 
+
+
+
+
+
+
+
+
+
 .clouds {
-    transform: translateZ(-9px) scale(2.0);
+    /* overflow: hidden; */
+    /* padding: 60px 0; */
+    white-space: nowrap;
+    position: relative;
+    margin-bottom: 2rem;
+    transform: translateZ(-14px) scale(2.2);
     opacity: 0.5;
-    margin-top: -100%;
+    margin-top: -30%;
     position: absolute;
+    transform: scale(1.3);
     /* margin-left: -50%; */
 }
+
+/*MAKE THE CLOUDS MOVE SCROL WAHTEVER I WANT IT*/
+
+
+.sliding {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    overflow-x: hidden;
+}
+
+
+#right-dumbass {
+    margin-right: -200%;
+}
+
+.clouds:before,
+.clouds:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+/* .clouds:before {
+    left: 0;
+    background: linear-gradient( to left, rgba(255,255,255,0), white );
+}
+
+.clouds:after {
+    right: 0;
+    background: linear-gradient( to right, rgba(255,255,255,0), white );
+} */
+
+
+
+.clouds{
+    animation: 75s i-believe-i-can-fly infinite linear;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .background {
     margin-left: -33%;
 
-    transform: translateZ(-10px) scale(1.7);
+    transform: translateZ(-8px) scale(1.7);
 }
 
 .foreground {
     transform: translateZ(-5px) scale(1.6);
+    margin-bottom: -10%;
 }
+/*MAKE THE PERSON WALK PLS W SCROLL IT'S COOL*/
+
+
 
 .background, .foreground {
     margin-top: 10%;
@@ -69,16 +169,16 @@ header {
 }
 
 .moon {
-transform: translateZ(-25px) scale(3.5) ;
+transform: translateZ(-28px) scale(3.9) ;
 
-   margin-top: -80%;
+   margin-top: -90%;
    position: absolute;
 }
 
 .env {
-    margin-top: -50%;
-    margin-left: -3%;
-    transform: translateZ(-7px) scale(2) ;
+    margin-top: -19%;
+    margin-left: -0.1%;
+    transform: translateZ(5px) scale(0.5) ;
     width: fit-content;
     flex-direction: column;
     justify-content: center;
@@ -87,3 +187,48 @@ transform: translateZ(-25px) scale(3.5) ;
 
 }
 
+.diagonal {
+    display: flex;
+    
+    /* transform: rotate(-25deg); */
+    margin-right: -42%;
+    margin-top: -20%;
+}
+
+
+.stripping {
+    /* transform: rotate(-40deg); */
+}
+
+
+.pole {
+    z-index: -1;
+    margin-top: -88%;
+    margin-left: 18%;
+    transform: scale(0.5);
+}
+
+.gays {
+   
+
+}
+
+
+#scalemf {
+    /* transform: scale(2); */
+}
+
+#big {
+    z-index: -3;
+    position: absolute;
+    transform: scale(2.5);
+    right: 18%;
+    top: 25%;
+}
+
+#big-electric-boogalo {
+    position: absolute;
+    transform: scale(2);
+    right: 25%;
+    top: 25%;
+}
