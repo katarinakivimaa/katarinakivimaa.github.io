@@ -1,12 +1,5 @@
 
 
-.mill {
-    animation-name: rotate360;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-delay: none;
-}
-
 
 .stretch-arc {
     opacity: 0;
@@ -148,6 +141,15 @@ header {
 /*MAKE THE PERSON WALK PLS W SCROLL IT'S COOL*/
 
 
+#WORK-PLEASE{
+    position: absolute;
+    margin-right: -120%;
+    margin-top: -35%;
+
+    transform: translateZ(-14px) scale(2.2);
+
+}
+
 
 .background, .foreground {
     margin-top: 10%;
@@ -177,55 +179,7 @@ transform: translateZ(-28px) scale(3.9) ;
 
 }
 
-.diagonal {
-    display: flex;
-    
-    /* transform: rotate(-25deg); */
-    margin-right: -42%;
-    margin-top: -20%;
-}
 
 
 
 
-
-.stripping {
-    position: static;
-    
-}
-
-
-.pole {
-    z-index: -1;
-    margin-top: -88%;
-    margin-left: 18%;
-    transform: scale(0.5);
-}
-
-.gays {
-    position: absolute;
-    transform: translateZ(-14px) scale(2.2);
-
-}
-
-
-#scalemf {
-    /* transform: scale(2); */
-    
-}
-
-#big {
-    z-index: -3;
-    position: absolute;
-    transform: scale(2.5);
-    right: 18%;
-    top: 25%;
-    
-}
-
-#big-electric-boogalo {
-    position: absolute;
-    transform: scale(2);
-    right: 25%;
-    top: 25%;
-}

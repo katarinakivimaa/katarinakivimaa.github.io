@@ -24,6 +24,16 @@ links.forEach(link => {
 });
 
 
+
+
+
+
+
+
+
+
+
+
 //video after logos
 window.addEventListener('load', videoScroll);
 window.addEventListener('scroll', videoScroll);
