@@ -3,15 +3,16 @@ gsap.registerPlugin(Flip);
 const links = document.querySelectorAll(".nav-item a");
 const activeNav = document.querySelector(".active-nav");
 
-links.forEach((link) => {
+links.forEach(link => {
     link.addEventListener("click", () => {
     //nav to blue
-    gsap.to(links, {color:"#F8F8F8"});
+    gsap.to(links, {color:"white"});
+    
     if (document.activeElement === link){
     gsap.to(link, {color:"#000000"});
     }
     
-    //i like to move it move it
+    //i like to move it move it you liek to MOVE IT
     const state = Flip.getState(activeNav);
     link.appendChild(activeNav);
     Flip.from(state, {

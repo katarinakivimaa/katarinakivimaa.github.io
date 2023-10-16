@@ -1,19 +1,43 @@
+
+
+
+
+.line {
+    z-index: -3;
+    position: relative;
+    -webkit-background-size: cover;
+    background-image: url("./ass/line.svg");
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+nav {
+    margin-top: -978.5%;
+
+}
+
+
 /*hero*/
 
 .hero {
+margin-top: 8%;
     width: 70%;
     height: 90vh;
-    /* padding-top: 5%;
-    padding-left: 7%; */
+    /* /* padding-top: 5%; */
     
 }
 
 .hero .right {
+    right: 0;
+    margin-left: 20%;
     justify-content: space-between;
 }
 
 .hero .col img {
-    width: 65%;
+    margin-top: -32%;
+    width: 100%;
     position: relative;
     height: auto;
     animation-name: rotate;
@@ -27,8 +51,8 @@
 #plant-reverse {
     z-index: -1;
     animation-direction: reverse;
-    margin-top: -80%;
-    margin-left: -27%;
+    margin-top: -130%;
+    margin-left: -57%;
     animation-duration: 7s;
     
 }
@@ -143,7 +167,7 @@ video {
 
 
 
-  .explain {
+.explain {
     margin-left: 15%;
     width: 70%;
     align-self: center;
@@ -151,7 +175,7 @@ video {
   }
   
 
-  .explain .row {
+.explain .row {
     display: flex;
     justify-content: space-between;
     min-height: 84vh;
@@ -159,9 +183,14 @@ video {
   }
 
 
+.confused {
+    text-align: center;
+}
 
 
-
+.roight {
+    text-align: right;
+}
 
 
 
