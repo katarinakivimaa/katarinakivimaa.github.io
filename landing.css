@@ -6,7 +6,7 @@
     z-index: -3;
     position: relative;
     -webkit-background-size: cover;
-    background-image: url("./ass/line.svg");
+    /* background-image: url("./ass/line.svg"); */
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -183,6 +183,10 @@ video {
   }
 
 
+.straight {
+    padding-top: 10%;
+}
+
 .confused {
     text-align: center;
 }
@@ -190,6 +194,8 @@ video {
 
 .roight {
     text-align: right;
+    padding-bottom: 18%;
+    padding-top: 10%;
 }
 
 
@@ -238,7 +244,7 @@ video {
     /* height: fit-content;
     width: 50%; */
     overflow: hidden;
-    border-radius: 80px 300px 300px 80px;
+    border-radius: 0px 0px 80px 80px;
 
 }
 

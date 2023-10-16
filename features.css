@@ -11,7 +11,7 @@
 .stretch-arc {
     opacity: 0;
 }
-.btn-white button {
+.btn-white {
     background-color: white;
     padding: 0.5rem 1rem;
     border-radius: 0.625rem;
@@ -23,9 +23,9 @@
 }
 
 
-
-
-
+.active-nav {
+    background-color: #73628A;
+}
 
 
 
@@ -99,20 +99,11 @@ header {
     z-index: 2;
 }
 
-/* .clouds:before {
-    left: 0;
-    background: linear-gradient( to left, rgba(255,255,255,0), white );
-}
-
-.clouds:after {
-    right: 0;
-    background: linear-gradient( to right, rgba(255,255,255,0), white );
-} */
 
 
 
 .clouds{
-    animation: 75s i-believe-i-can-fly infinite linear;
+    animation: 95s i-believe-i-can-fly infinite linear;
     display: inline-block;
 }
 
@@ -195,8 +186,11 @@ transform: translateZ(-28px) scale(3.9) ;
 }
 
 
+
+
+
 .stripping {
-    /* transform: rotate(-40deg); */
+    position: static;
     
 }
 
