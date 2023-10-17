@@ -250,7 +250,7 @@ video {
 #bitchass-crop {
     display: inline-block;
     width: auto;
-   
+    position: relative;
     margin-left: -35%;
     overflow: hidden; 
     border-radius: 0px 0px 80px 80px;
@@ -259,11 +259,22 @@ video {
 
 
 #bitchass-crop img {
-    margin-top: -50px;
+    margin-top: -4%;
     transform: scale(1.1);
 
 }
 
+#pretty {
+    z-index: -1;
+    /* transform: rotate(90deg); */
+    margin-left: -50%;
+    padding-top: 30%;
+    position: absolute;
+    image-orientation: flip;
+    transform: scaleX(-1);
+
+
+}
 
 .hidden {
     min-height: 60vh;
