@@ -28,32 +28,26 @@
 }
 
 
-#scalemf {
-    /* transform: scale(2); */
-    
-}
-
 #big {
-    z-index: -3;
     /* position: absolute; */
-    transform: scale(2.5);
-    right: 18%;
-    top: 25%;
-    
+    transform: scale(2.8);
+
 }
 
 #big-electric-boogalo {
     /* position: absolute; */
     transform: scale(2);
-    right: 25%;
-    top: 25%;
+}
+
+#medium {
+    /* position: absolute; */
+    transform: scale(1.6);
 }
 
 
 .diagonal {
     display: flex;
-    
     /* transform: rotate(-25deg); */
     margin-right: -42%;
-    margin-top: -20%;
+    margin-top: -12%;
 }

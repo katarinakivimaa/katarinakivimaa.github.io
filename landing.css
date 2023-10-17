@@ -2,11 +2,19 @@
 
 
 
+
+
+
+
+
 .line {
+    margin-top: -7%;
     z-index: -3;
     position: relative;
     -webkit-background-size: cover;
     /* background-image: url("./ass/line.svg"); */
+    /* background-position: -85% 75%; */
+    /* background-position-x: -10%; */
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -14,7 +22,7 @@
 }
 
 nav {
-    margin-top: -978.5%;
+    margin-top: -976.5%;
 
 }
 
@@ -241,16 +249,18 @@ video {
 
 #bitchass-crop {
     display: inline-block;
-    /* height: fit-content;
-    width: 50%; */
-    overflow: hidden;
+    width: auto;
+   
+    margin-left: -35%;
+    overflow: hidden; 
     border-radius: 0px 0px 80px 80px;
 
 }
 
 
 #bitchass-crop img {
-    margin-top: -20px;
+    margin-top: -50px;
+    transform: scale(1.1);
 
 }
 
@@ -259,7 +269,7 @@ video {
     min-height: 60vh;
     opacity: 0;
     filter: blur(5px);
-    transform: translateX(-100%);
+    transform: translateX(-120%);
     transition: all 1s;
 }
 
