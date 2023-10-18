@@ -27,6 +27,7 @@ nav {
 }
 
 
+
 /*hero*/
 
 .hero {
@@ -94,7 +95,7 @@ margin-top: 8%;
     /* padding: 60px 0; */
     background: white;
     white-space: nowrap;
-    position: relative;
+    z-index: -4;
     margin-bottom: 2rem;
 }
 
@@ -130,7 +131,7 @@ margin-top: 8%;
 }
 
 .logos-slide {
-    animation: 35s slide infinite linear;
+    animation: 30s slide infinite linear;
     display: inline-block;
 }
 
@@ -276,6 +277,12 @@ video {
 
 }
 
+.ROTATE {
+    /*
+    transform: scaleX(-1);
+     -webkit-transform: scaleX(-1); */
+}
+
 .hidden {
     min-height: 60vh;
     opacity: 0;
@@ -313,9 +320,11 @@ video {
     
 } */
 
-#flower {
-    position: absolute;
-    z-index: -1;
+
+
+#pretty {
+    
+    /* transform: rotate(90deg); */
 }
 
 
@@ -334,12 +343,3 @@ video {
 
 
 
-
-
-
-.blue-bg {
-    margin-top: 80vh;
-    background-color: #313D5A;
-    width: 100%;
-    min-height: 200vh;
-}

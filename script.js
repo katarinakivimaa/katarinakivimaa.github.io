@@ -27,13 +27,6 @@ links.forEach(link => {
 
 
 
-
-
-
-
-
-
-
 //video after logos
 window.addEventListener('load', videoScroll);
 window.addEventListener('scroll', videoScroll);
@@ -60,6 +53,7 @@ function videoScroll() {
   }
 
 }
+
 
 function fade(element) {
   var op = 1;  // initial opacity

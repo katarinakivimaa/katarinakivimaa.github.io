@@ -14,13 +14,54 @@
         display: flex;
     }
     
-}
+} */
 
 
+@media (min-width: 1921px) { /*cuz the monitors at B306 are big af*/
+    body {
+  line-height: 2.25;
+    }
+
+    h3, h4, h5 {
+  line-height: 1.8;
+    }
+
+    h1 {
+  font-size: 5.953rem;
+    }
+
+    h2 {font-size: 4.998rem;
+    }
+
+    h3 {font-size: 2.827rem;}
+
+    h4 {font-size: 2.299rem;}
+
+    h5 {font-size: 1.814rem;
+    line-height: 2.91rem;}
+
+    p {font-size: 1.3rem;}
+
+    .logo {font-size: 1.2rem;}
+
+    button {
+        font-size: 1.2rem;
+    }
+
+    nav {
+        font-size: 1.3rem;
+    }
+    .stretch-arc img {
+        margin-top: 0vh;
+    }
+
+    .accordion {
+        font-size: 1.3rem;
+    }
+} 
 
 
-
-
+/*
 
 @media screen and (max-width: 1200px){
     #desktop-nav {

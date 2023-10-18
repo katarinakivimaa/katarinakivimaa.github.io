@@ -37,11 +37,13 @@
 #big-electric-boogalo {
     /* position: absolute; */
     transform: scale(2);
+    z-index: -2;
 }
 
 #medium {
     /* position: absolute; */
     transform: scale(1.6);
+    z-index: -3;
 }
 
 
