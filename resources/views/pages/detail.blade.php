@@ -1,7 +1,7 @@
 @extends('partials.layout')
 @section('content')
 <div class="w-full min-h-screen flex justify-center items-center px-4 py-20">
-    <div class="max-w-md w-full bg-primary text-white rounded-2xl shadow-2xl overflow-hidden font-primary">
+    <div class="max-w-md rounded-lg w-full bg-primary text-white rounded-2xl shadow-2xl overflow-hidden font-primary">
         
         <div class="h-96 w-full">
             <img class="object-cover w-full h-full"
@@ -13,13 +13,13 @@
             <h2 class="text-4xl font-semibold text-white">{{ $product->name }}</h2>
             <h3 class="text-2xl text-white">€{{ number_format($product->price, 2) }}</h3>
 
-            <p class="text-sm text-gray-300"><strong>Description:</strong> {{ $product->description }}</p>
-            <p class="text-sm text-gray-300"><strong>Material:</strong> {{ $product->material }}</p>
-            <p class="text-sm text-gray-300"><strong>Size:</strong> {{ ucfirst($product->size) }}</p>
-            <p class="text-sm text-gray-300"><strong>Color:</strong> {{ ucfirst($product->color) }}</p>
+            <p class="text-s text-gray-200"><strong>Description:</strong> {{ $product->description }}</p>
+            <p class="text-s text-gray-200"><strong>Material:</strong> {{ $product->material }}</p>
+            <p class="text-s text-gray-200"><strong>Size:</strong> {{ ucfirst($product->size) }}</p>
+            <p class="text-s text-gray-200"><strong>Color:</strong> {{ ucfirst($product->color) }}</p>
             
             @if ($product->category)
-                <p class="text-sm text-gray-300"><strong>Category:</strong> {{ $product->category->name }}</p>
+                <p class="text-s text-gray-200"><strong>Category:</strong> {{ $product->category->name }}</p>
             @endif
 
             <div class="pt-4">

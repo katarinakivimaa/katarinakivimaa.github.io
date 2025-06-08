@@ -8,14 +8,14 @@
             <li class="text-secondary text-white"><a href="{{route('contact')}}">Contact us</a></li>
         </ul>
     </div>
-    <div class="flex py-6 items-center px-24 bg-black rounded-full">
+    <div class="flex py-6 items-center px-12 bg-black rounded-full">
         <div class="flex items-center h-10 w-46">
-            <div class="flex items-center h-full border-l-2 border-t-2 border-b-2 border-white rounded-l-xl">
-                <i class="text-xl text-white ms-3 nf nf-cod-search"></i>
+            <div class="flex items-center h-full rounded-l-xl">   
+            <i class="text-xl bg-transparent text-white ms-3 nf nf-cod-search"></i>
             </div>
-            <input type="search" id="default-search" class="w-full h-full ps-10 text-xl focus:outline-none focus-visible:none"/>
-            
-            <button type="submit" class="h-full text-white bg-transparent font-primary text-xl px-4 border-r-2 border-t-2 border-b-2 border-white rounded-r-xl">Search</button>
+            <input type="search" id="default-search" class="w-full bg-transparent h-full ps-10 text-xl focus:outline-none focus-visible:none"/>
+
+            <button type="submit" class="h-full w-32 h-32 bg-transparent"><img src="/search.svg"></button>
         </div>
         <div class="flex items-center h-10">
             <i class="text-3xl text-white ms-3 nf nf-fa-user"></i>

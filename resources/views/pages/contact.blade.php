@@ -1,10 +1,10 @@
 @extends('partials.layout')
 
 @section('content')
-<div class="w-98 h-fit relative font-primary">
-    <div class="absolute inset-0 bg-cover bg-[url('/public/background.gif')] brightness-40"></div>
+<div class="w-98  relative font-primary">
+    <div class="absolute  inset-0 bg-cover bg-[url('/public/background.gif')] brightness-40"></div>
 
-    <div class="relative z-10 pt-32 max-w-3xl mx-auto px-4 text-white">
+    <div class="relative  z-10 pt-32 max-w-3xl mx-auto px-4 text-white">
         @if(Session::has('success'))
         <div class="p-4 mb-6 text-green-200 bg-green-800 rounded-xl shadow-md text-center">
             {{ Session::get('success') }}
@@ -13,45 +13,46 @@
 
         <h3 class="text-primary text-xl text-center mb-2">Contact Us</h3>
         <h1 class="text-4xl font-bold text-center mb-10">We’d love to hear from you</h1>
+        <div style="display:flex" class="justify-center">
+            <form action="{{ route('mail') }}" method="POST" class="rounded-lg space-y-32 bg-primary bg-opacity-60 gap-4 p-8 rounded-2xl shadow-lg" style="width:50vw;">
+                @csrf
 
-        <form action="{{ route('mail') }}" method="POST" class="space-y-6 bg-black bg-opacity-60 p-8 rounded-2xl shadow-lg">
-            @csrf
+                <div>
+                    <label for="name" class="block mb-1 text-lg">Name</label>
+                    <input name="name" type="text" id="name"
+                        class="w-full p-3 rounded-xl text-black border border-gray-300 focus:ring-primary focus:border-primary"
+                        placeholder="Your name" required>
+                </div>
 
-            <div>
-                <label for="name" class="block mb-1 text-lg">Name</label>
-                <input name="name" type="text" id="name"
-                    class="w-full p-3 rounded-xl text-black border border-gray-300 focus:ring-primary focus:border-primary"
-                    placeholder="Your name" required>
-            </div>
+                <div>
+                    <label for="email" class="block mb-1 text-lg">Email</label>
+                    <input name="email" type="email" id="email"
+                        class="w-full p-3 rounded-xl text-black border border-gray-300 focus:ring-primary focus:border-primary"
+                        placeholder="you@example.com" required>
+                </div>
 
-            <div>
-                <label for="email" class="block mb-1 text-lg">Email</label>
-                <input name="email" type="email" id="email"
-                    class="w-full p-3 rounded-xl text-black border border-gray-300 focus:ring-primary focus:border-primary"
-                    placeholder="you@example.com" required>
-            </div>
+                <div>
+                    <label for="subject" class="block mb-1 text-lg">Subject</label>
+                    <input name="subject" type="text" id="subject"
+                        class="w-full p-3 rounded-xl text-black border border-gray-300 focus:ring-primary focus:border-primary"
+                        placeholder="Subject" required>
+                </div>
 
-            <div>
-                <label for="subject" class="block mb-1 text-lg">Subject</label>
-                <input name="subject" type="text" id="subject"
-                    class="w-full p-3 rounded-xl text-black border border-gray-300 focus:ring-primary focus:border-primary"
-                    placeholder="Subject" required>
-            </div>
+                <div>
+                    <label for="message" class="block mb-1 text-lg">Message</label>
+                    <textarea name="message" id="message" rows="5"
+                        class="w-full p-3 rounded-xl text-black border border-gray-300 focus:ring-primary focus:border-primary"
+                        placeholder="Write your message here..." required></textarea>
+                </div>
 
-            <div>
-                <label for="message" class="block mb-1 text-lg">Message</label>
-                <textarea name="message" id="message" rows="5"
-                    class="w-full p-3 rounded-xl text-black border border-gray-300 focus:ring-primary focus:border-primary"
-                    placeholder="Write your message here..." required></textarea>
-            </div>
-
-            <div class="text-center">
-                <button type="submit"
-                    class="bg-primary hover:bg-white text-white hover:text-primary border-2 border-primary transition px-8 py-3 rounded-xl text-lg font-semibold">
-                    Send Message
-                </button>
-            </div>
-        </form>
+                <div class="text-center">
+                    <button type="submit"
+                        class="bg-primary hover:bg-white text-white hover:text-primary border-2 border-primary transition px-8 py-3 rounded-xl text-lg font-semibold">
+                        Send Message
+                    </button>
+                </div>
+            </form>
+        </div>
     </div>
 </div>
 @endsection
