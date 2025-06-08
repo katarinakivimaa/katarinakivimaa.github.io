@@ -13,18 +13,15 @@ export default {
         extend: {
             colors: {
                 primary: "#CA2B30",
-                secondary: "#3A607E",
+                neutral: "#FFDCC5",
                 reDark: "#1E000E",
-                reBeige: "#FEEFE5",
+                secondary: "#FFDCC5",
                 success: "#00F937",
                 defeat: "#D00000",
             },
             fontFamily: {
                 primary: ['"KoHo"', ...defaultTheme.fontFamily.sans],
                 secondary: ["Komikazoom"]
-            },
-            brightness: {
-                40: ".40",
             },
             height: {
                 inherit: "inherit",

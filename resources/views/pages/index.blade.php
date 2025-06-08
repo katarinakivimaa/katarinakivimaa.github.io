@@ -28,29 +28,56 @@
 </div>
 
 <div class="w-full h-screen">
-    <div class="absolute w-full top-auto bg-secondary h-full brightness-40"></div>
+    <div class="absolute w-full top-auto h-full"></div>
     <div class="relative z-10 h-full mx-24 text-white flex items-center gap-6">
+        <div class="inline-flex justify-center items-center gap-12">
+  <div class="inline-flex flex-col justify-start items-start gap-3.5">
+    <img class="w-72 h-96 rounded-tr-full rounded-bl-full" src="/public/red_Kiiu_tote_bag_Mockup_web.png" />
+    <div class="self-stretch inline-flex justify-start items-start gap-14">
+      <div class="w-7 h-5 justify-center text-black text-xs font-medium font-['Futura']">1631</div>
+      <div class="w-52 h-5 text-right justify-center text-black text-xs font-medium font-['Futura']">Rembrandt Harmensz. van Rijn</div>
+    </div>
+    <div class="w-64 h-5 justify-center text-black text-xs font-bold font-['Futura']">Old Man with a Gold Chain</div>
+    <div class="w-64 justify-center text-black text-xs font-medium font-['Futura']">This evocative character study is an early example of a type of subject that preoccupied the great Dutch master Rembrandt van Rijn throughout his long career. Although his large output included landscapes, genre paintings, and the occasional still life.</div>
+  </div>
+  <div class="inline-flex flex-col justify-start items-start gap-3.5">
+    <img class="w-72 h-96 rounded-tl-full rounded-tr-full" src="/public/red_Kiiu_tote_bag_Mockup_web.png" />
+    <div class="self-stretch h-5 inline-flex justify-start items-start gap-20">
+      <div class="w-8 h-5 justify-center text-black text-xs font-medium font-['Futura']">1887</div>
+      <div class="flex-1 h-5 text-right justify-center text-black text-xs font-medium font-['Futura']">Vincent van Gogh</div>
+    </div>
+    <div class="w-64 h-5 justify-center text-black text-xs font-bold font-['Futura']">Self-portrait</div>
+    <div class="w-64 justify-center text-black text-xs font-medium font-['Futura']">In 1886 Vincent van Gogh left his native Holland and settled in Paris, where his beloved brother Theo was a dealer in paintings. Van Gogh created at least twenty-four self-portraits during his two-year stay in the energetic French capital.</div>
+  </div>
+  <div class="inline-flex flex-col justify-start items-start gap-3.5">
+    <img class="w-72 h-96 rounded-tl-full rounded-br-full" src="/public/red_Kiiu_tote_bag_Mockup_web.png" />
+    <div class="self-stretch h-5 inline-flex justify-start items-start gap-14">
+      <div class="w-8 h-5 justify-center text-black text-xs font-medium font-['Futura']">1881</div>
+      <div class="flex-1 h-5 text-right justify-center text-black text-xs font-medium font-['Futura']">Pierre-Auguste Renoir</div>
+    </div>
+    <div class="w-64 h-5 justify-center text-black text-xs font-bold font-['Futura']">Two Sisters (On the Terrace)</div>
+    <div class="w-64 justify-center text-black text-xs font-medium font-['Futura']">“He loves everything that is joyous, brilliant, and consoling in life,” an anonymous interviewer once wrote about Pierre-Auguste Renoir. This may explain why Two Sisters (On the Terrace) is one of the most popular paintings in the Art Institute.</div>
+  </div>
+</div>
         
     </div>
 </div>
 
-<div class="w-full h-fit ">
-    <div class="absolute w-full top-auto bg-cover bg-primary h-full brightness-40"></div>
-
-    <div class="relative z-10 h-full pt-32 mx-32 text-white text-center font-primary">
-        <h3 class="text-primary text-2xl">Check out our merch</h3>
-        <h1 class="text-6xl">Our most popular</h1>
+<div class="w-full h-fit justify-center items-center">
+    <div class="relative space-y-4 z-10 h-full pt-32 mx-32 text-white text-center font-primary">
+        <h3 class="text-black text-2xl">A flash to the past</h3>
+        <h1 class="text-6xl text-primary">Support a historical monument</h1>
         <div class="grid grid-cols-4 gap-16">
             @foreach($products as $product)
-            <div class="bg-black rounded-xl overflow-hidden">
+            <div class="bg-primary rounded-xl overflow-hidden">
                 <div class="h-96">
                     <img class="object-cover h-inherit w-inherit"
                         src="{{ isset($product->image[0]) ? Storage::disk('public')->url($product->image[0]) : asset('images/default.png') }}">
                 </div>
-                <div class="p-4">
+                <div class="p-4 text-white space-y-4 pt-4">
                     <h2 class="text-3xl">{{$product->name}}</h2>
-                    <h2 class="text-2xl text-primary">€{{$product->price}}</h2>
-                    <a href="{{route('product', ['product' => $product])}}" class="text-2xl w-48 border-2 border-white rounded-xl py-2 px-8 hover:bg-white hover:text-primary">Add to cart</a>
+                    <h2 class="text-2xl">€{{$product->price}}</h2>
+                    <a href="{{route('product', ['product' => $product])}}" class="inline-block w-full text-center text-xl border-2 border-white rounded-xl py-3 px-8 hover:bg-white hover:text-primary transition">Add to cart</a>
                 </div>
             </div>
             @endforeach

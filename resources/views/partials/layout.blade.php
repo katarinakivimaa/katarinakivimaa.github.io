@@ -7,7 +7,7 @@
     <title>Kiiu Tuulik</title>
     @vite('resources/css/app.css')
 </head>
-<body>
+<body style="background-color:#FEEFE5;">
     @include('partials.nav')
     @yield('content')
     @include('partials.footer')

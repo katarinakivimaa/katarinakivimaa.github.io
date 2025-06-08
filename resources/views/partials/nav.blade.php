@@ -13,7 +13,8 @@
             <div class="flex items-center h-full border-l-2 border-t-2 border-b-2 border-white rounded-l-xl">
                 <i class="text-xl text-white ms-3 nf nf-cod-search"></i>
             </div>
-            <input type="search" id="default-search" class="w-full h-full ps-10 text-xl text-white border-y-2 border-white bg-primary focus:outline-none focus-visible:none"/>
+            <input type="search" id="default-search" class="w-full h-full ps-10 text-xl focus:outline-none focus-visible:none"/>
+            
             <button type="submit" class="h-full text-white bg-transparent font-primary text-xl px-4 border-r-2 border-t-2 border-b-2 border-white rounded-r-xl">Search</button>
         </div>
         <div class="flex items-center h-10">
