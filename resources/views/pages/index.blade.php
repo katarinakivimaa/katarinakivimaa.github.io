@@ -28,45 +28,63 @@
 </div>
 
 <div class="w-full">
-    <div class="absolute w-full top-auto "></div>
+    <div class="absolute w-full top-auto my-16"></div>
     <div class="relative z-10 mx-32 text-white flex items-center gap-6">
-        <h3 class="text-black text-2xl">A flash to the past</h3>
+        <h3 class="text-black text-xl">A flash to the past</h3>
         <h1 class="text-6xl text-primary">Support a historical monument</h1>
-        <div class="inline-flex justify-center items-center gap-12">
-            <div class="inline-flex flex-col justify-start items-start gap-3.5">
+        <div class="inline-flex justify-center w-24 items-center gap-16">
+            <div class="inline-flex w-12 flex-col justify-start items-start gap-3.5">
                 <img style="width: auto; height: 360px; border-top-right-radius: 160px; border-bottom-left-radius: 160px" src="/lydia.jpg" />
-                <div class="self-stretch inline-flex justify-start items-start gap-14">
-                    <div class="w-7 h-5 justify-center text-black text-s font-medium font-['Futura']">1631</div>
-                    <div class="w-52 h-5 text-right justify-center text-black text-s font-medium font-['Futura']">Rembrandt Harmensz. van Rijn</div>
+                <div class="self-stretch justify-start items-start gap-14">
+                    <div class="w-7 h-5 justify-center text-black text-xl font-medium ">1631</div>
+                    <div class="w-52 h-5 text-right justify-center text-black text-m ">Rembrandt Harmensz. van Rijn</div> <br>
                 </div>
-                <div class="w-64 h-5 justify-center text-black text-xs font-bold font-['Futura']">Old Man with a Gold Chain</div>
-                <div class="w-64 justify-center text-black text-xs font-medium font-['Futura']">This evocative character study is an early example of a type of subject that preoccupied the great Dutch master Rembrandt van Rijn throughout his long career. Although his large output included landscapes, genre paintings, and the occasional still life.</div>
+                <div class="w-64 h-5 justify-center text-black text-L font-bold ">Old Man with a Gold Chain</div>
+                <div class="w-64 justify-center text-black text-m">This evocative character study is an early example of a type of subject that preoccupied the great Dutch master Rembrandt van Rijn throughout his long career. Although his large output included landscapes, genre paintings, and the occasional still.</div>
             </div>
-            <div class="inline-flex flex-col justify-start items-start gap-3.5">
-                <img style="width: auto; height: 360px; border-top-right-radius: 160px; border-bottom-left-radius: 160px" src="/pats.jpg" />
-                <div class="self-stretch h-5 inline-flex justify-start items-start gap-20">
-                    <div class="w-8 h-5 justify-center text-black text-xs font-medium font-['Futura']">1887</div>
-                    <div class="flex-1 h-5 text-right justify-center text-black text-xs font-medium font-['Futura']">Vincent van Gogh</div>
+            <div class="inline-flex w-12 flex-col justify-start items-start gap-3.5">
+                <img style="width: auto; height: 360px; border-top-left-radius: 160px; border-top-right-radius: 160px"" src=" /pats.jpg" />
+                <div class="self-stretch justify-start items-start gap-14">
+                    <div class="w-7 h-5 justify-center text-black text-xl font-medium ">1631</div>
+                    <div class="w-52 h-5 text-right justify-center text-black text-m ">Rembrandt Harmensz. van Rijn</div> <br>
                 </div>
-                <div class="w-64 h-5 justify-center text-black text-xs font-bold font-['Futura']">Self-portrait</div>
-                <div class="w-64 justify-center text-black text-xs font-medium font-['Futura']">In 1886 Vincent van Gogh left his native Holland and settled in Paris, where his beloved brother Theo was a dealer in paintings. Van Gogh created at least twenty-four self-portraits during his two-year stay in the energetic French capital.</div>
+                <div class="w-64 h-5 justify-center text-black text-L font-bold ">Old Man with a Gold Chain</div>
+                <div class="w-64 justify-center text-black text-m">This evocative character study is an early example of a type of subject that preoccupied the great Dutch master Rembrandt van Rijn throughout his long career. Although his large output included landscapes, genre paintings, and the occasional still.</div>
             </div>
-            <div class="inline-flex flex-col justify-start items-start gap-3.5">
-                <img style="width: auto; height: 360px; border-top-right-radius: 160px; border-bottom-left-radius: 160px" src="/download" />
-                <div class="self-stretch h-5 inline-flex justify-start items-start gap-14">
-                    <div class="w-8 h-5 justify-center text-black text-xs font-medium font-['Futura']">1881</div>
-                    <div class="flex-1 h-5 text-right justify-center text-black text-xs font-medium font-['Futura']">Pierre-Auguste Renoir</div>
+            <div class="inline-flex w-12 flex-col justify-start items-start gap-3.5">
+                <img style="width: auto; height: 360px; border-top-left-radius: 160px; border-bottom-right-radius: 160px"" src=" /download" />
+                <div class="self-stretch justify-start items-start gap-14">
+                    <div class="w-7 h-5 justify-center text-black text-xl font-medium ">1631</div>
+                    <div class="w-52 h-5 text-right justify-center text-black text-m ">Rembrandt Harmensz. van Rijn</div> <br>
                 </div>
-                <div class="h-5 justify-center text-black text-xs font-bold font-['Futura']">Two Sisters (On the Terrace)</div>
-                <div class="justify-center text-black text-xs font-medium font-['Futura']">“He loves everything that is joyous, brilliant, and consoling in life,” an anonymous interviewer once wrote about Pierre-Auguste Renoir. This may explain why Two Sisters (On the Terrace) is one of the most popular paintings in the Art Institute.</div>
+                <div class="w-64 h-5 justify-center text-black text-L font-bold ">Old Man with a Gold Chain</div>
+                <div class="w-64 justify-center text-black text-m">This evocative character study is an early example of a type of subject that preoccupied the great Dutch master Rembrandt van Rijn throughout his long career. Although his large output included landscapes, genre paintings, and the occasional still.</div>
             </div>
         </div>
-
     </div>
+
+</div>
 </div>
 
+
+<div class="w-full justify-center items-center">
+    <div class="w-96 h-36 relative">
+        <div class="w-72 h-6 left-0 top-0 absolute justify-center text-black text-3xl font-bold font-['Futura']">American Gothic</div>
+        <div class="w-96 h-20 left-0 top-[61px] absolute justify-center text-black text-xs font-medium font-['Futura']">This image of a contemporary water pump would have been a perfect fit for Lewis’s novel about life in a midwestern town. The drawing was given to the Art Institute by Carter Manny, Jr., who received it as a high school graduation gift from the artist in 1937.</div>
+    </div>
+    <div class="w-96 h-36 relative">
+        <div class="w-52 h-6 left-0 top-0 absolute justify-center text-black text-3xl font-bold font-['Futura']">Grant Wood</div>
+        <div class="w-96 h-20 left-0 top-[61px] absolute justify-center text-black text-xs font-medium font-['Futura']">Grant Wood, famous for his representations of the Midwest—of which the Art Institute’s American Gothic (1930.934) is his most recognizable example—intended The Pump to be an illustration for Sinclair Lewis’s novel Main Street (1920). </div>
+    </div>
+    <div class="w-[662px] h-44 relative">
+        <div class="left-0 top-0 absolute justify-center text-black text-9xl font-normal font-['KoHo'] [text-shadow:_0px_4px_4px_rgb(0_0_0_/_0.25)]">THE AQ ART</div>
+    </div>
+
+</div>
+
+
 <div class="w-full h-fit justify-center items-center">
-    <div class="relative space-y-4 z-10 h-full pt-32 mx-32 text-white text-center font-primary">
+    <div class="relative space-y-4 z-10 h-full pt-32 py-16 mx-32 text-white text-center font-primary">
         <h3 class="text-black text-2xl">A flash to the past</h3>
         <h1 class="text-6xl text-primary">Support a historical monument</h1>
         <div class="grid grid-cols-4 gap-16">
