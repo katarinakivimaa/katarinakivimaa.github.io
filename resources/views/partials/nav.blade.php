@@ -4,7 +4,7 @@
         <ul class="flex space-x-16 ml-16">
             <li><a href="{{route('home')}}">Home</a></li>
             <li class="text-secondary text-white"><a href="{{route('shop')}}">Shop</a></li>
-            <li class="text-secondary text-white"><a href="#">Donate</a></li>
+            <li class="text-secondary text-white"><a href="{{route('donate')}}">Donate</a></li>
             <li class="text-secondary text-white"><a href="{{route('contact')}}">Contact us</a></li>
         </ul>
     </div>

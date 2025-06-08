@@ -7,7 +7,7 @@
         <div class="text-3xl font-primary">
 
             <p class="mb-2">Come and discover
-                <span class="uppercase text-primary">Kiiu Tuulik</span>
+                <span class="uppercase font-bold text-primary">Kiiu Tuulik</span>
             </p>
             <p class="font-primary text-6xl capitalize">Discover history</p>
             <p class="font-primary text-6xl capitalize mb-6">
