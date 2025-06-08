@@ -2,17 +2,16 @@
 
 @section('content')
 <div class="w-98  relative font-primary">
-    <div class="absolute  inset-0 bg-cover bg-[url('/public/background.gif')] brightness-40"></div>
+    <div class="space-y-4 "></div>
 
-    <div class="relative  z-10 pt-32 max-w-3xl mx-auto px-4 text-white">
+    <div class="relative space-y-4 z-30 pt-32 max-w-3xl mx-auto px-4 text-white">
         @if(Session::has('success'))
         <div class="p-4 mb-6 text-green-200 bg-green-800 rounded-xl shadow-md text-center">
             {{ Session::get('success') }}
         </div>
         @endif
-
-        <h3 class="text-primary text-xl text-center mb-2">Contact Us</h3>
-        <h1 class="text-4xl font-bold text-center mb-10">We’d love to hear from you</h1>
+        <h3 class="text-black text-center  text-2xl">Contact us here</h3>
+        <h1 class="text-6xl text-primary text-center mb-10">We’d love to hear from you</h1>
         <div style="display:flex" class="justify-center">
             <form action="{{ route('mail') }}" method="POST" class="rounded-lg space-y-32 bg-primary bg-opacity-60 gap-4 p-8 rounded-2xl shadow-lg" style="width:50vw;">
                 @csrf

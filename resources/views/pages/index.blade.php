@@ -57,38 +57,36 @@
 </div>
 
 
-<div class="w-full ">
-    <div class="absolute w-full top-8 my-16"></div>
+<div class="w-full p-16 bg-primary">
+    <div class="absolute w-full top-8 mt-8 my-16"></div>
     <div class="relative pt-6 z-10 mx-32 text-white flex items-center gap-6">
-        <h3 class="text-black text-xl">A flash to the past</h3>
-        <h1 class="text-6xl text-primary">Support a historical monument</h1>
-        <div class="inline-flex justify-center w-24 items-center gap-16">
-            <div class="inline-flex w-12 flex-col justify-start items-start gap-3.5">
+        <div class="inline-flex justify-center w-24 items-center gap-16 text-center">
+            <div class="inline-flex w-12 flex-col justify-center items-center gap-3.5">
                 <img style="width: auto; height: 360px; border-top-right-radius: 160px; border-bottom-left-radius: 160px" src="/lydia.jpg" />
-                <div class="self-stretch justify-start items-start gap-14">
-                    <div class="w-7 h-5 justify-center text-black text-xl font-medium ">1631</div>
-                    <div class="w-52 h-5 text-right justify-center text-black text-m ">Rembrandt Harmensz. van Rijn</div> <br>
+                <div class="self-stretch justify-center items-start gap-14">
+                    <div class="w-7 h-5 justify-center text-xl font-medium ">1631</div>
+                    <div class="w-52 h-5 text-right justify-center text-m ">Rembrandt Harmensz. van Rijn</div> <br>
                 </div>
-                <div class="w-64 h-5 justify-center text-black text-L font-bold ">Old Man with a Gold Chain</div>
-                <div class="w-64 justify-center text-black text-m">This evocative character study is an early example of a type of subject that preoccupied the great Dutch master Rembrandt van Rijn throughout his long career. Although his large output included landscapes, genre paintings, and the occasional still.</div>
+                <div class="w-64 h-5 justify-center text-xl mb-4  font-bold ">Old Man with a Gold Chain</div>
+                <div class="w-64 justify-center text-m">This evocative character study is an early example of a type of subject that preoccupied the great Dutch master Rembrandt van Rijn throughout his long career. Although his large output included landscapes, genre paintings, and the occasional still.</div>
             </div>
-            <div class="inline-flex w-12 flex-col justify-start items-start gap-3.5">
+            <div class="inline-flex w-12 flex-col justify-start items-center gap-3.5">
                 <img style="width: auto; height: 360px; border-top-left-radius: 160px; border-top-right-radius: 160px" src="/pats.jpg" />
                 <div class="self-stretch justify-start items-start gap-14">
-                    <div class="w-7 h-5 justify-center text-black text-xl font-medium ">1631</div>
-                    <div class="w-52 h-5 text-right justify-center text-black text-m ">Rembrandt Harmensz. van Rijn</div> <br>
+                    <div class="w-7 h-5 justify-center text-xl font-medium ">1631</div>
+                    <div class="w-52 h-5 text-right justify-center text-m ">Rembrandt Harmensz. van Rijn</div> <br>
                 </div>
-                <div class="w-64 h-5 justify-center text-black text-L font-bold ">Old Man with a Gold Chain</div>
-                <div class="w-64 justify-center text-black text-m">This evocative character study is an early example of a type of subject that preoccupied the great Dutch master Rembrandt van Rijn throughout his long career. Although his large output included landscapes, genre paintings, and the occasional still.</div>
+                <div class="w-64 h-5 justify-center mb-4 text-xl font-bold ">Old Man with a Gold Chain</div>
+                <div class="w-64 justify-center  text-m">This evocative character study is an early example of a type of subject that preoccupied the great Dutch master Rembrandt van Rijn throughout his long career. Although his large output included landscapes, genre paintings, and the occasional still.</div>
             </div>
-            <div class="inline-flex w-12 flex-col justify-start items-start gap-3.5">
+            <div class="inline-flex w-12 flex-col justify-start items-center gap-3.5">
                 <img style="width: auto; height: 360px; border-top-left-radius: 160px; border-bottom-right-radius: 160px" src="/download" />
                 <div class="self-stretch justify-start items-start gap-14">
-                    <div class="w-7 h-5 justify-center text-black text-xl font-medium ">1631</div>
-                    <div class="w-52 h-5 text-right justify-center text-black text-m ">Rembrandt Harmensz. van Rijn</div> <br>
+                    <div class="w-7 h-5 justify-center text-xl font-medium ">1631</div>
+                    <div class="w-52 h-5 text-right justify-center text-m ">Rembrandt Harmensz. van Rijn</div> <br>
                 </div>
-                <div class="w-64 h-5 justify-center text-black text-L font-bold ">Old Man with a Gold Chain</div>
-                <div class="w-64 justify-center text-black text-m">This evocative character study is an early example of a type of subject that preoccupied the great Dutch master Rembrandt van Rijn throughout his long career. Although his large output included landscapes, genre paintings, and the occasional still.</div>
+                <div class="w-64 h-5 justify-center mb-4 text-xl font-bold ">Old Man with a Gold Chain</div>
+                <div class="w-64 justify-center text-m">This evocative character study is an early example of a type of subject that preoccupied the great Dutch master Rembrandt van Rijn throughout his long career. Although his large output included landscapes, genre paintings, and the occasional still.</div>
             </div>
         </div>
     </div>
@@ -97,8 +95,8 @@
 </div>
 
 <div class="w-full h-fit justify-center items-center">
-    <div class="relative space-y-4 z-10 h-full pt-32 py-16 mx-32 text-white text-center font-primary">
-        <h3 class="text-black text-2xl">A flash to the past</h3> <br>
+    <div class="relative space-y-4 z-10 h-full py-16 mx-32 text-white text-center font-primary">
+        <h3 class="text-black text-2xl">Products for you</h3>
         <h1 class="text-6xl text-primary">Support a historical monument</h1>
         <div class="" style="transform:translateY(280px)"><button style="transform:translateX(-845px)" onclick="scrollSlider(-1)"
                 class="absolute left-0 top-1/3 bg-black text-2xl text-bold text-primary p-4 rounded-full shadow-lg hover:bg-primary hover:text-white transition">
