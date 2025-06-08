@@ -10,45 +10,52 @@ use Illuminate\Support\Facades\Mail;
 
 class PublicController extends Controller
 {
-    public function index(){
+    public function index()
+    {
         $products = Product::take(4)->get();
         return view('pages.index', compact('products'));
     }
 
+    public function donate()
+    {
+        return view('pages.donate');
+    }
+
     public function shop(Request $request)
-{
-    $query = Product::query();
+    {
+        $query = Product::query();
 
-    // Apply filters
-    if ($request->filled('category')) {
-        $query->where('category_id', $request->category);
+        if ($request->filled('category')) {
+            $query->where('category_id', $request->category);
+        }
+
+        if ($request->filled('min_price')) {
+            $query->where('price', '>=', $request->min_price);
+        }
+
+        if ($request->filled('max_price')) {
+            $query->where('price', '<=', $request->max_price);
+        }
+
+        $products = $query->get();
+
+        $categories = Category::all();
+
+        return view('pages.shop', compact('products', 'categories'));
     }
 
-    if ($request->filled('min_price')) {
-        $query->where('price', '>=', $request->min_price);
-    }
-
-    if ($request->filled('max_price')) {
-        $query->where('price', '<=', $request->max_price);
-    }
-
-    $products = $query->get();
-
-    // You’ll need this to populate the dropdown in the Blade view
-    $categories = Category::all();
-
-    return view('pages.shop', compact('products', 'categories'));
-}
-
-    public function product(Product $product){
+    public function product(Product $product)
+    {
         return view('pages.detail', compact('product'));
     }
 
-    public function contact(){
+    public function contact()
+    {
         return view('pages.contact');
     }
 
-    public function mail(){
+    public function mail()
+    {
         Mail::to('katarina.kivimaa@gmail.com')->send(new ContactUs(
             request()->input('subject'),
             request()->input('email'),
