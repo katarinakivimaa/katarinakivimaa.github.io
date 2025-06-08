@@ -1,11 +1,11 @@
 @extends('partials.layout')
 @section('content')
-<div style="background-image: url('/windmill_banner.jpg');" class="w-98 absolute top-auto w-full h-screen relative font-primary">
+<div style="background-image: url('/windmill_banner.jpg'); background-size: cover; background-position: center;" class="w-98 absolute top-auto w-full h-screen relative font-primary">
 <div class="pt-24 flex justify-center items-start font-primary px-8">
   <div class="flex max-w-6xl w-full items-center h-screen gap-16">
 
-    <div class="">
-      <img src="/windmill_banner.jpg" class="" />
+    <div style="width:40vw;">
+      
     </div>
 
     <div class="flex-1 p-8 bg-white rounded-3xl shadow-lg">
