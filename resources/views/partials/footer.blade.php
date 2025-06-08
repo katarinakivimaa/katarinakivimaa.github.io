@@ -14,7 +14,7 @@
             <h3 class="text-2xl mb-2">Quick Links</h3>
             <a href="{{route('home')}}" class="hover:text-secondary">Home</a>
             <a href="{{route('shop')}}" class="hover:text-secondary">Store</a>
-            <a href="#" class="hover:text-secondary">About</a>
+            <a href="#" class="hover:text-secondary">Donate</a>
             <a href="{{route('contact')}}" class="hover:text-secondary">Contact Us</a>
         </div>
 

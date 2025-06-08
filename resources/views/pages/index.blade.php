@@ -5,7 +5,7 @@
     <div style="background-image: url('/kiiu_hero_banner.jpg');" class="absolute top-0 bg-cover bg-center bg-[url('/kiiu_hero_banner.jpg')] w-full h-screen"></div>
     <div class="relative z-10 text-white pt-96 ml-24">
         <div class="text-3xl font-primary">
-             
+
             <p class="mb-2">Come and discover
                 <span class="uppercase text-primary">Kiiu Tuulik</span>
             </p>
@@ -57,9 +57,9 @@
 </div>
 
 
-<div class="w-full">
+<div class="w-full ">
     <div class="absolute w-full top-8 my-16"></div>
-    <div class="relative z-10 mx-32 text-white flex items-center gap-6">
+    <div class="relative pt-6 z-10 mx-32 text-white flex items-center gap-6">
         <h3 class="text-black text-xl">A flash to the past</h3>
         <h1 class="text-6xl text-primary">Support a historical monument</h1>
         <div class="inline-flex justify-center w-24 items-center gap-16">

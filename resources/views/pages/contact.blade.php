@@ -1,7 +1,7 @@
 @extends('partials.layout')
 
 @section('content')
-<div class="w-full h-fit relative font-primary">
+<div class="w-98 h-fit relative font-primary">
     <div class="absolute inset-0 bg-cover bg-[url('/public/background.gif')] brightness-40"></div>
 
     <div class="relative z-10 pt-32 max-w-3xl mx-auto px-4 text-white">
