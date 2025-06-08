@@ -1,6 +1,6 @@
 <nav class="fixed z-20 w-full justify-between items-center text-white font-primary text-2xl flex py-6 px-24">
     <div class="flex py-6 px-24 items-center bg-black rounded-full">
-        <img src="/white_kiiu_logo.svg" class="h-14">
+        <div><a href="{{route('home')}}"><img src="/white_kiiu_logo.svg" class="h-12"></a></div>
         <ul class="flex space-x-16 ml-16">
             <li><a href="{{route('home')}}">Home</a></li>
             <li class="text-secondary text-white"><a href="{{route('shop')}}">Shop</a></li>
