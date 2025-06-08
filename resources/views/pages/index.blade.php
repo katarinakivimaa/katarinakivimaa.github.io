@@ -19,14 +19,201 @@
         <div class="flex z-10 font-primary text-2xl space-x-6">
             <button
                 class="bg-primary hover:bg-white text-white hover:text-primary border-primary transition px-8 py-3 rounded-xl text-lg font-semibold">
-                Donate
+                <a href="{{route('donate')}}">Donate</a>
             </button>
             <button
                 class="bg-primary hover:bg-white text-white hover:text-primary border-primary transition px-8 py-3 rounded-xl text-lg font-semibold">
-                Shop
+                <a href="{{route('shop')}}">Shop</a>
             </button>
         </div>
     </div>
+</div>
+
+
+<div class="w-full h-screen  py-16 text-left">
+    <h3 class="text-black text-center text-2xl">Events and Activites</h3>
+    <h1 class="text-6xl text-center text-primary">Show up for Education</h1>
+    <div class="flex py-6 mx-32 items-center flex-wrap space-x-6 space-y-4 max-w-screen-xl">
+
+        <div class="w-80 bg-white rounded-md overflow-hidden shadow-xl">
+
+            <div style="height: 230px;" class="relative overflow-hidden">
+                <img src="/1.webp" alt="Event image" class="w-full h-full object-cover" />
+                <div class="rounded-tr text-xs font-semibold text-gray-800">
+                    Travel & Adventure
+                </div>
+            </div>
+
+            <div class="flex p-4 gap-4">
+                <div class="text-center">
+                    <div class="text-primary text-base font-semibold">NOV</div>
+                    <div class="text-gray-800 text-lg font-bold">25–26</div>
+                </div>
+
+                <div>
+                    <div class="text-gray-800 font-semibold text-base">Lakeside Camping</div>
+                    <div class="text-zinc-600 text-xs font-semibold">Adventure Geek - Explore the Unexplored, Estonia</div>
+                    <div class="text-zinc-600 text-xs uppercase">8:30 AM – 7:30 PM</div>
+                </div>
+            </div>
+        </div>
+        <div class="w-80 bg-white rounded-md overflow-hidden shadow-xl">
+
+            <div style="height: 230px;" class="relative overflow-hidden">
+                <img src="/2.webp" alt="Event image" class="w-full h-full object-cover" />
+                <div class="rounded-tr text-xs font-semibold text-gray-800">
+                    Travel & Adventure
+                </div>
+            </div>
+
+            <div class="flex p-4 gap-4">
+                <div class="text-center">
+                    <div class="text-primary text-base font-semibold">DEC</div>
+                    <div class="text-gray-800 text-lg font-bold">15–23</div>
+                </div>
+
+                <div>
+                    <div class="text-gray-800 font-semibold text-base">Lakeside Camping at Pawna</div>
+                    <div class="text-zinc-600 text-xs font-semibold">Adventure Geek - Explore the Unexplored, Estonia</div>
+                    <div class="text-zinc-600 text-xs uppercase">9:30 AM – 7:30 PM</div>
+                </div>
+            </div>
+        </div>
+        <div class="w-80 bg-white rounded-md overflow-hidden shadow-xl">
+
+            <div style="height: 230px;" class="relative overflow-hidden">
+                <img src="/7.webp" alt="Event image" class="w-full h-full object-cover" />
+                <div class="absolute bottom-0 left-0 px-2 py-1 bg-yellow-300 rounded-tr text-xs font-semibold text-gray-800">
+                    Travel & Adventure
+                </div>
+            </div>
+
+            <div class="flex p-4 gap-4">
+                <div class="text-center">
+                    <div class="text-primary text-base font-semibold">NOV</div>
+                    <div class="text-gray-800 text-lg font-bold">05–22</div>
+                </div>
+
+                <div>
+                    <div class="text-gray-800 font-semibold text-base">Lakeside Camping at Pawna</div>
+                    <div class="text-zinc-600 text-xs font-semibold">Adventure Geek - Explore the Unexplored, Estonia</div>
+                    <div class="text-zinc-600 text-xs uppercase">12:30 AM – 5:00 PM</div>
+                </div>
+            </div>
+        </div>
+        <div class="w-80 bg-white rounded-md overflow-hidden shadow-xl">
+
+            <div style="height: 230px;" class="relative overflow-hidden">
+                <img src="/4.webp" alt="Event image" class="w-full h-full object-cover" />
+                <div class="absolute bottom-0 left-0 px-2 py-1 bg-yellow-300 rounded-tr text-xs font-semibold text-gray-800">
+                    Travel & Adventure
+                </div>
+            </div>
+
+            <div class="flex p-4 gap-4">
+                <div class="text-center">
+                    <div class="text-primary text-base font-semibold">OCT</div>
+                    <div class="text-gray-800 text-lg font-bold">11–16</div>
+                </div>
+
+                <div>
+                    <div class="text-gray-800 font-semibold text-base">Lakeside Camping at Pawna</div>
+                    <div class="text-zinc-600 text-xs font-semibold">Adventure Geek - Explore the Unexplored, Estonia</div>
+                    <div class="text-zinc-600 text-xs uppercase">8:30 AM – 7:30 PM</div>
+                </div>
+            </div>
+        </div>
+        <div class="w-80 bg-white rounded-md overflow-hidden shadow-xl">
+
+            <div style="height: 230px;" class="relative overflow-hidden">
+                <img src="/5.webp" alt="Event image" class="w-full h-full object-cover" />
+                <div class="absolute bottom-0 left-0 px-2 py-1 bg-yellow-300 rounded-tr text-xs font-semibold text-gray-800">
+                    Travel & Adventure
+                </div>
+            </div>
+
+            <div class="flex p-4 gap-4">
+                <div class="text-center">
+                    <div class="text-primary text-base font-semibold">MAR</div>
+                    <div class="text-gray-800 text-lg font-bold">12–27</div>
+                </div>
+
+                <div>
+                    <div class="text-gray-800 font-semibold text-base">Lakeside Camping at Pawna</div>
+                    <div class="text-zinc-600 text-xs font-semibold">Adventure Geek - Explore the Unexplored, Estonia</div>
+                    <div class="text-zinc-600 text-xs uppercase">1:30 PM – 7:30 PM</div>
+                </div>
+            </div>
+        </div>
+        <div class="w-80 bg-white rounded-md overflow-hidden shadow-xl">
+
+            <div style="height: 230px;" class="relative overflow-hidden">
+                <img src="/6.webp" alt="Event image" class="w-full h-full object-cover" />
+                <div class="absolute bottom-0 left-0 px-2 py-1 bg-yellow-300 rounded-tr text-xs font-semibold text-gray-800">
+                    Travel & Adventure
+                </div>
+            </div>
+
+            <div class="flex p-4 gap-4">
+                <div class="text-center">
+                    <div class="text-primary text-base font-semibold">JUN</div>
+                    <div class="text-gray-800 text-lg font-bold">02–17</div>
+                </div>
+
+                <div>
+                    <div class="text-gray-800 font-semibold text-base">Lakeside Camping at Pawna</div>
+                    <div class="text-zinc-600 text-xs font-semibold">Adventure Geek - Explore the Unexplored, Estonia</div>
+                    <div class="text-zinc-600 text-xs uppercase">8:30 AM – 7:30 PM</div>
+                </div>
+            </div>
+        </div>
+        <div class="w-80 bg-white rounded-md overflow-hidden shadow-xl">
+
+            <div style="height: 230px;" class="relative overflow-hidden">
+                <img src="/3.webp" alt="Event image" class="w-full h-full object-cover" />
+                <div class="absolute bottom-0 left-0 px-2 py-1 bg-yellow-300 rounded-tr text-xs font-semibold text-gray-800">
+                    Travel & Adventure
+                </div>
+            </div>
+
+            <div class="flex p-4 gap-4">
+                <div class="text-center">
+                    <div class="text-primary text-base font-semibold">JUL</div>
+                    <div class="text-gray-800 text-lg font-bold">25–26</div>
+                </div>
+
+                <div>
+                    <div class="text-gray-800 font-semibold text-base">Lakeside Camping at Pawna</div>
+                    <div class="text-zinc-600 text-xs font-semibold">Adventure Geek - Explore the Unexplored, Estonia</div>
+                    <div class="text-zinc-600 text-xs uppercase">8:30 AM – 7:30 PM</div>
+                </div>
+            </div>
+        </div>
+        <div class="w-80 bg-white rounded-md overflow-hidden shadow-xl">
+
+            <div style="height: 230px;" class="relative overflow-hidden">
+                <img src="/8.webp" alt="Event image" class="w-full h-full object-cover" />
+                <div class="absolute bottom-0 left-0 px-2 py-1 bg-yellow-300 rounded-tr text-xs font-semibold text-gray-800">
+                    Travel & Adventure
+                </div>
+            </div>
+
+            <div class="flex p-4 gap-4">
+                <div class="text-center">
+                    <div class="text-primary text-base font-semibold">AUG</div>
+                    <div class="text-gray-800 text-lg font-bold">02–26</div>
+                </div>
+
+                <div>
+                    <div class="text-gray-800 font-semibold text-base">Lakeside Camping at Pawna</div>
+                    <div class="text-zinc-600 text-xs font-semibold">Adventure Geek - Explore the Unexplored, Estonia</div>
+                    <div class="text-zinc-600 text-xs uppercase">7:30 AM – 7:00 PM</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
 </div>
 
 <div class="w-full bg-primary flex justify-center items-center py-10">
@@ -93,195 +280,8 @@
 
 </div>
 
-
-<div class="w-full h-fit  py-16 text-center">
-    <h3 class="text-black text-2xl">Events and Activites</h3>
-    <h1 class="text-6xl text-primary">Show up for Education</h1>
-    <div class="flex py-6 mx-32 items-center flex-wrap space-x-6 space-y-4 max-w-screen-xl">
-
-        <div class="w-80 bg-white rounded-md overflow-hidden shadow-xl">
-
-            <div style="height: 230px;" class="relative overflow-hidden">
-                <img src="/windmill_banner.jpg" alt="Event image" class="w-full h-full object-cover" />
-                <div class="absolute bottom-0 left-0 px-2 py-1 bg-yellow-300 rounded-tr text-xs font-semibold text-gray-800">
-                    Travel & Adventure
-                </div>
-            </div>
-
-            <div class="flex p-4 gap-4">
-                <div class="text-center">
-                    <div class="text-primary text-base font-semibold">NOV</div>
-                    <div class="text-gray-800 text-lg font-bold">25–26</div>
-                </div>
-
-                <div>
-                    <div class="text-gray-800 font-semibold text-base">Lakeside Camping at Pawna</div>
-                    <div class="text-zinc-600 text-xs font-semibold">Adventure Geek - Explore the Unexplored, Mumbai</div>
-                    <div class="text-zinc-600 text-xs uppercase">8:30 AM – 7:30 PM</div>
-                </div>
-            </div>
-        </div>
-        <div class="w-80 bg-white rounded-md overflow-hidden shadow-xl">
-
-            <div style="height: 230px;" class="relative overflow-hidden">
-                <img src="/windmill_banner.jpg" alt="Event image" class="w-full h-full object-cover" />
-                <div class="absolute bottom-0 left-0 px-2 py-1 bg-yellow-300 rounded-tr text-xs font-semibold text-gray-800">
-                    Travel & Adventure
-                </div>
-            </div>
-
-            <div class="flex p-4 gap-4">
-                <div class="text-center">
-                    <div class="text-primary text-base font-semibold">NOV</div>
-                    <div class="text-gray-800 text-lg font-bold">25–26</div>
-                </div>
-
-                <div>
-                    <div class="text-gray-800 font-semibold text-base">Lakeside Camping at Pawna</div>
-                    <div class="text-zinc-600 text-xs font-semibold">Adventure Geek - Explore the Unexplored, Mumbai</div>
-                    <div class="text-zinc-600 text-xs uppercase">8:30 AM – 7:30 PM</div>
-                </div>
-            </div>
-        </div>
-        <div class="w-80 bg-white rounded-md overflow-hidden shadow-xl">
-
-            <div style="height: 230px;" class="relative overflow-hidden">
-                <img src="/windmill_banner.jpg" alt="Event image" class="w-full h-full object-cover" />
-                <div class="absolute bottom-0 left-0 px-2 py-1 bg-yellow-300 rounded-tr text-xs font-semibold text-gray-800">
-                    Travel & Adventure
-                </div>
-            </div>
-
-            <div class="flex p-4 gap-4">
-                <div class="text-center">
-                    <div class="text-primary text-base font-semibold">NOV</div>
-                    <div class="text-gray-800 text-lg font-bold">25–26</div>
-                </div>
-
-                <div>
-                    <div class="text-gray-800 font-semibold text-base">Lakeside Camping at Pawna</div>
-                    <div class="text-zinc-600 text-xs font-semibold">Adventure Geek - Explore the Unexplored, Mumbai</div>
-                    <div class="text-zinc-600 text-xs uppercase">8:30 AM – 7:30 PM</div>
-                </div>
-            </div>
-        </div>
-        <div class="w-80 bg-white rounded-md overflow-hidden shadow-xl">
-
-            <div style="height: 230px;" class="relative overflow-hidden">
-                <img src="/windmill_banner.jpg" alt="Event image" class="w-full h-full object-cover" />
-                <div class="absolute bottom-0 left-0 px-2 py-1 bg-yellow-300 rounded-tr text-xs font-semibold text-gray-800">
-                    Travel & Adventure
-                </div>
-            </div>
-
-            <div class="flex p-4 gap-4">
-                <div class="text-center">
-                    <div class="text-primary text-base font-semibold">NOV</div>
-                    <div class="text-gray-800 text-lg font-bold">25–26</div>
-                </div>
-
-                <div>
-                    <div class="text-gray-800 font-semibold text-base">Lakeside Camping at Pawna</div>
-                    <div class="text-zinc-600 text-xs font-semibold">Adventure Geek - Explore the Unexplored, Mumbai</div>
-                    <div class="text-zinc-600 text-xs uppercase">8:30 AM – 7:30 PM</div>
-                </div>
-            </div>
-        </div>
-        <div class="w-80 bg-white rounded-md overflow-hidden shadow-xl">
-
-            <div style="height: 230px;" class="relative overflow-hidden">
-                <img src="/windmill_banner.jpg" alt="Event image" class="w-full h-full object-cover" />
-                <div class="absolute bottom-0 left-0 px-2 py-1 bg-yellow-300 rounded-tr text-xs font-semibold text-gray-800">
-                    Travel & Adventure
-                </div>
-            </div>
-
-            <div class="flex p-4 gap-4">
-                <div class="text-center">
-                    <div class="text-primary text-base font-semibold">NOV</div>
-                    <div class="text-gray-800 text-lg font-bold">25–26</div>
-                </div>
-
-                <div>
-                    <div class="text-gray-800 font-semibold text-base">Lakeside Camping at Pawna</div>
-                    <div class="text-zinc-600 text-xs font-semibold">Adventure Geek - Explore the Unexplored, Mumbai</div>
-                    <div class="text-zinc-600 text-xs uppercase">8:30 AM – 7:30 PM</div>
-                </div>
-            </div>
-        </div>
-        <div class="w-80 bg-white rounded-md overflow-hidden shadow-xl">
-
-            <div style="height: 230px;" class="relative overflow-hidden">
-                <img src="/windmill_banner.jpg" alt="Event image" class="w-full h-full object-cover" />
-                <div class="absolute bottom-0 left-0 px-2 py-1 bg-yellow-300 rounded-tr text-xs font-semibold text-gray-800">
-                    Travel & Adventure
-                </div>
-            </div>
-
-            <div class="flex p-4 gap-4">
-                <div class="text-center">
-                    <div class="text-primary text-base font-semibold">NOV</div>
-                    <div class="text-gray-800 text-lg font-bold">25–26</div>
-                </div>
-
-                <div>
-                    <div class="text-gray-800 font-semibold text-base">Lakeside Camping at Pawna</div>
-                    <div class="text-zinc-600 text-xs font-semibold">Adventure Geek - Explore the Unexplored, Mumbai</div>
-                    <div class="text-zinc-600 text-xs uppercase">8:30 AM – 7:30 PM</div>
-                </div>
-            </div>
-        </div>
-        <div class="w-80 bg-white rounded-md overflow-hidden shadow-xl">
-
-            <div style="height: 230px;" class="relative overflow-hidden">
-                <img src="/windmill_banner.jpg" alt="Event image" class="w-full h-full object-cover" />
-                <div class="absolute bottom-0 left-0 px-2 py-1 bg-yellow-300 rounded-tr text-xs font-semibold text-gray-800">
-                    Travel & Adventure
-                </div>
-            </div>
-
-            <div class="flex p-4 gap-4">
-                <div class="text-center">
-                    <div class="text-primary text-base font-semibold">NOV</div>
-                    <div class="text-gray-800 text-lg font-bold">25–26</div>
-                </div>
-
-                <div>
-                    <div class="text-gray-800 font-semibold text-base">Lakeside Camping at Pawna</div>
-                    <div class="text-zinc-600 text-xs font-semibold">Adventure Geek - Explore the Unexplored, Mumbai</div>
-                    <div class="text-zinc-600 text-xs uppercase">8:30 AM – 7:30 PM</div>
-                </div>
-            </div>
-        </div>
-        <div class="w-80 bg-white rounded-md overflow-hidden shadow-xl">
-
-            <div style="height: 230px;" class="relative overflow-hidden">
-                <img src="/windmill_banner.jpg" alt="Event image" class="w-full h-full object-cover" />
-                <div class="absolute bottom-0 left-0 px-2 py-1 bg-yellow-300 rounded-tr text-xs font-semibold text-gray-800">
-                    Travel & Adventure
-                </div>
-            </div>
-
-            <div class="flex p-4 gap-4">
-                <div class="text-center">
-                    <div class="text-primary text-base font-semibold">NOV</div>
-                    <div class="text-gray-800 text-lg font-bold">25–26</div>
-                </div>
-
-                <div>
-                    <div class="text-gray-800 font-semibold text-base">Lakeside Camping at Pawna</div>
-                    <div class="text-zinc-600 text-xs font-semibold">Adventure Geek - Explore the Unexplored, Mumbai</div>
-                    <div class="text-zinc-600 text-xs uppercase">8:30 AM – 7:30 PM</div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</div>
-
 <div class="w-full h-fit justify-center items-center">
-    <div class="relative space-y-4 z-10 h-full py-16 mx-32 text-white text-center font-primary">
+    <div class="relative space-y-4 z-10 h-full py-16 mx-32 text-white justify-center items-center text-center font-primary">
         <h3 class="text-black text-2xl">Products for you</h3>
         <h1 class="text-6xl text-primary">Support a historical monument</h1>
         <div class="" style="transform:translateY(280px)"><button style="transform:translateX(-845px)" onclick="scrollSlider(-1)"
