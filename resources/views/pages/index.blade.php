@@ -54,39 +54,6 @@
                 </div>
             </div>
             @endforeach
-            {{-- <div class="bg-black rounded-xl overflow-hidden">
-                    <div class="h-96">
-                        <img class="object-cover h-inherit w-inherit"  src="/hoodie.webp">
-                    </div>
-
-                    <div class="p-4">
-                        <h2 class="text-3xl">Undead seekers hoodie</h2>
-                        <h2 class="text-2xl text-primary">$35.99</h2>
-                        <button class="text-2xl w-48 border-2 border-white rounded-xl py-2 px-8 hover:bg-white hover:text-primary">Add to cart</button>
-                    </div>
-                </div>
-                <div class="bg-black rounded-xl overflow-hidden">
-                    <div class="h-96">
-                        <img class="object-cover h-inherit w-inherit"  src="/banner.webp">
-                    </div>
-
-                    <div class="p-4">
-                        <h2 class="text-3xl">Undead seekers big-banner</h2>
-                        <h2 class="text-2xl text-primary">$35.99</h2>
-                        <button class="text-2xl w-48 border-2 border-white rounded-xl py-2 px-8 hover:bg-white hover:text-primary">Add to cart</button>
-                    </div>
-                </div>
-                <div class="bg-black rounded-xl overflow-hidden">
-                    <div class="h-96">
-                        <img class="object-cover h-inherit w-inherit"  src="/stickers.webp">
-                    </div>
-
-                    <div class="p-4">
-                        <h2 class="text-3xl">Undead seekers stickers combo</h2>
-                        <h2 class="text-2xl text-primary">$35.99</h2>
-                        <button class="text-2xl w-48 border-2 border-white rounded-xl py-2 px-8 hover:bg-white hover:text-primary">Add to cart</button>
-                    </div>
-                </div> --}}
         </div>
     </div>
 </div>
