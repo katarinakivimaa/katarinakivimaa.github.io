@@ -30,7 +30,7 @@
 
         <div class="grid grid-cols-4 gap-16">
             @forelse ($products as $product)
-            <div class="bg-primary rounded-xl text-white overflow-hidden">
+            <div class="bg-primary rounded-xl shadow-xl text-white overflow-hidden">
                 <div class="h-96">
                     <img class="object-cover h-inherit w-inherit"
                         src="{{ isset($product->image[0]) ? Storage::disk('public')->url($product->image[0]) : asset('images/default.png') }}">

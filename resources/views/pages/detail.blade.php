@@ -1,9 +1,9 @@
 @extends('partials.layout')
 @section('content')
 <div class="w-full min-h-screen flex justify-center items-center px-4 py-20">
-    <div class="max-w-md rounded-lg w-full bg-primary text-white rounded-2xl shadow-2xl overflow-hidden font-primary">
+    <div class="max-w-md rounded-lg w-full bg-primary text-white rounded-2xl shadow-xl overflow-hidden font-primary">
         
-        <div class="h-96 w-full">
+        <div class="h-76">
             <img class="object-cover w-full h-full"
                 src="{{ Storage::disk('public')->url($product->image[0]) }}"
                 alt="{{ $product->name }}">

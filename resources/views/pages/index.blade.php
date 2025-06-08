@@ -51,7 +51,7 @@
             </div>
         </div>
         <img
-            class="w-96 rounded-t-[200px]" style="border-top-left-radius: 200px; border-top-right-radius: 200px"
+            class="w-96 shadow-xl" style="border-top-left-radius: 200px; border-top-right-radius: 200px"
             src="/kiiu_pilt.jpg" />
     </div>
 </div>
@@ -62,7 +62,7 @@
     <div class="relative pt-6 z-10 mx-32 text-white flex items-center gap-6">
         <div class="inline-flex justify-center w-24 items-center gap-16 text-center">
             <div class="inline-flex w-12 flex-col justify-center items-center gap-3.5">
-                <img style="width: auto; height: 360px; border-top-right-radius: 160px; border-bottom-left-radius: 160px" src="/lydia.jpg" />
+                <img class="shadow-xl" style="width: auto; height: 360px; border-top-right-radius: 160px; border-bottom-left-radius: 160px" src="/lydia.jpg" />
                 <div class="self-stretch justify-center items-start gap-14">
                     <div class="w-7 h-5 justify-center text-xl font-medium ">1631</div>
                     <div class="w-52 h-5 text-right justify-center text-m ">Rembrandt Harmensz. van Rijn</div> <br>
@@ -71,7 +71,7 @@
                 <div class="w-64 justify-center text-m">This evocative character study is an early example of a type of subject that preoccupied the great Dutch master Rembrandt van Rijn throughout his long career. Although his large output included landscapes, genre paintings, and the occasional still.</div>
             </div>
             <div class="inline-flex w-12 flex-col justify-start items-center gap-3.5">
-                <img style="width: auto; height: 360px; border-top-left-radius: 160px; border-top-right-radius: 160px" src="/pats.jpg" />
+                <img class="shadow-xl" style="width: auto; height: 360px; border-top-left-radius: 160px; border-top-right-radius: 160px" src="/pats.jpg" />
                 <div class="self-stretch justify-start items-start gap-14">
                     <div class="w-7 h-5 justify-center text-xl font-medium ">1631</div>
                     <div class="w-52 h-5 text-right justify-center text-m ">Rembrandt Harmensz. van Rijn</div> <br>
@@ -80,7 +80,7 @@
                 <div class="w-64 justify-center  text-m">This evocative character study is an early example of a type of subject that preoccupied the great Dutch master Rembrandt van Rijn throughout his long career. Although his large output included landscapes, genre paintings, and the occasional still.</div>
             </div>
             <div class="inline-flex w-12 flex-col justify-start items-center gap-3.5">
-                <img style="width: auto; height: 360px; border-top-left-radius: 160px; border-bottom-right-radius: 160px" src="/download" />
+                <img class="shadow-xl" style="width: auto; height: 360px; border-top-left-radius: 160px; border-bottom-right-radius: 160px" src="/download" />
                 <div class="self-stretch justify-start items-start gap-14">
                     <div class="w-7 h-5 justify-center text-xl font-medium ">1631</div>
                     <div class="w-52 h-5 text-right justify-center text-m ">Rembrandt Harmensz. van Rijn</div> <br>
@@ -92,11 +92,11 @@
     </div>
 
 </div>
-</div>
+
 
 <div class="w-full h-fit  py-16 text-center">
-            <h3 class="text-black text-2xl">Events and Activites</h3>
-        <h1 class="text-6xl text-primary">Show up for Education</h1>
+    <h3 class="text-black text-2xl">Events and Activites</h3>
+    <h1 class="text-6xl text-primary">Show up for Education</h1>
     <div class="flex py-6 mx-32 items-center flex-wrap space-x-6 space-y-4 max-w-screen-xl">
 
         <div class="w-80 bg-white rounded-md overflow-hidden shadow-xl">
@@ -295,7 +295,7 @@
         </div>
         <div class="grid grid-cols-4 gap-16">
             @foreach($products as $product)
-            <div class="bg-primary rounded-xl mt-8 overflow-hidden">
+            <div class="bg-primary rounded-xl mt-8 overflow-hidden shadow-xl">
                 <div class="h-96">
                     <img class="object-cover h-inherit w-inherit"
                         src="{{ isset($product->image[0]) ? Storage::disk('public')->url($product->image[0]) : asset('images/default.png') }}">

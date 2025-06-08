@@ -8,7 +8,7 @@
       
     </div>
 
-    <div class="flex-1 p-8 bg-white rounded-md shadow-lg">
+    <div class="flex-1 p-8 bg-white rounded-md shadow-xl">
       <p class="mb-6 text-zinc-500 text-base font-lato max-w-lg">
         Welcome to Kiiu Tuuliku donation page. You'd be doing a great favor to our organization by pitching in to help a little.
       </p>
