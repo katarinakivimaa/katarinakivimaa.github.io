@@ -218,22 +218,25 @@
 
 <div class="w-full bg-primary flex justify-center items-center py-10">
     <div class="flex justify-center items-center gap-16 max-w-7xl px-6">
-        <div class="flex flex-col justify-center items-center gap-8 max-w-xl text-center">
+        <div class="flex flex-col gap-8 max-w-xl">
             <div class="text-white text-8xl font-normal font-['KoHo']">
                 History
             </div>
             <div class="flex space-y-4 flex-col gap-10 max-w-xl">
-                <div>
-                    <h2 class="text-white text-3xl font-bold font-['KoHo'] mb-2">Grant Wood</h2>
-                    <p class="text-white text-base font-normal font-['KoHo'] leading-relaxed">
-                        Grant Wood, famous for his representations of the Midwest—of which the Art Institute’s American Gothic (1930.934) is his most recognizable example—intended The Pump to be an illustration for Sinclair Lewis’s novel Main Street (1920).
-                    </p>
-                </div>
-                <div>
-                    <h2 class="text-white text-3xl font-bold font-['KoHo'] mb-2">American Gothic</h2>
-                    <p class="text-white text-base font-normal font-['KoHo'] leading-relaxed">
-                        This image of a contemporary water pump would have been a perfect fit for Lewis’s novel about life in a midwestern town. The drawing was given to the Art Institute by Carter Manny, Jr., who received it as a high school graduation gift from the artist in 1937.
-                    </p>
+                <div class="mb-2">
+                    <div>
+                        <h2 class="text-white text-3xl font-bold font-['KoHo'] mb-2">Kiiu Windmill</h2>
+                        <p class="text-white text-base font-normal font-['KoHo'] leading-relaxed">
+                            The Kiiu windmill, located in northern Estonia, is a well-preserved example of 19th-century rural architecture. Built in the early 1800s, it served as a vital part of the local agricultural economy, grinding grain for nearby farms. The structure reflects the ingenuity and resilience of Estonia’s countryside communities.
+                        </p>
+                    </div>
+                    <div>
+                        <h2 class="text-white text-3xl mt-6 font-bold font-['KoHo'] mb-2">Cultural Legacy</h2>
+                        <p class="text-white text-base font-normal font-['KoHo'] leading-relaxed">
+                            Though no longer in use, the windmill remains a symbol of Estonia's agrarian past and craftsmanship. Restored in recent years, it now serves as a historical landmark, reminding visitors of a time when wind and stone powered the region’s daily life and traditions.
+                        </p>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -248,37 +251,44 @@
     <div class="absolute w-full top-8 mt-8 my-16"></div>
     <div class="relative pt-6 z-10 mx-32 text-white flex items-center gap-6">
         <div class="inline-flex justify-center w-24 items-center gap-16 text-center">
+
+            <!-- Person 1 -->
             <div class="inline-flex w-12 flex-col justify-center items-center gap-3.5">
                 <img class="shadow-xl" style="width: auto; height: 360px; border-top-right-radius: 160px; border-bottom-left-radius: 160px" src="/lydia.jpg" />
                 <div class="self-stretch justify-center items-start gap-14">
-                    <div class="w-7 h-5 justify-center text-xl font-medium ">1631</div>
-                    <div class="w-52 h-5 text-right justify-center text-m ">Rembrandt Harmensz. van Rijn</div> <br>
+                    <div class="w-7 h-5 justify-center text-xl font-medium ">1834</div>
+                    <div class="w-52 h-5 text-right justify-center text-m ">Lydia Tamme</div> <br>
                 </div>
-                <div class="w-64 h-5 justify-center text-xl mb-4  font-bold ">Old Man with a Gold Chain</div>
-                <div class="w-64 justify-center text-m">This evocative character study is an early example of a type of subject that preoccupied the great Dutch master Rembrandt van Rijn throughout his long career. Although his large output included landscapes, genre paintings, and the occasional still.</div>
+                <div class="w-64 h-5 justify-center text-xl mb-4 font-bold ">Founder’s Daughter</div>
+                <div class="w-64 justify-center text-m">Lydia helped maintain the Kiiu windmill after her father's death, becoming a key figure in keeping local grain production running during the harsh winters of the 1830s.</div>
             </div>
+
+            <!-- Person 2 -->
             <div class="inline-flex w-12 flex-col justify-start items-center gap-3.5">
                 <img class="shadow-xl" style="width: auto; height: 360px; border-top-left-radius: 160px; border-top-right-radius: 160px" src="/pats.jpg" />
                 <div class="self-stretch justify-start items-start gap-14">
-                    <div class="w-7 h-5 justify-center text-xl font-medium ">1631</div>
-                    <div class="w-52 h-5 text-right justify-center text-m ">Rembrandt Harmensz. van Rijn</div> <br>
+                    <div class="w-7 h-5 justify-center text-xl font-medium ">1812</div>
+                    <div class="w-52 h-5 text-right justify-center text-m ">Peeter Kask</div> <br>
                 </div>
-                <div class="w-64 h-5 justify-center mb-4 text-xl font-bold ">Old Man with a Gold Chain</div>
-                <div class="w-64 justify-center  text-m">This evocative character study is an early example of a type of subject that preoccupied the great Dutch master Rembrandt van Rijn throughout his long career. Although his large output included landscapes, genre paintings, and the occasional still.</div>
+                <div class="w-64 h-5 justify-center mb-4 text-xl font-bold ">Millwright & Builder</div>
+                <div class="w-64 justify-center text-m">Peeter was the original builder of the Kiiu windmill. A skilled craftsman, he designed the mill using local limestone and oak, blending Baltic practicality with elegant engineering.</div>
             </div>
+
+            <!-- Person 3 -->
             <div class="inline-flex w-12 flex-col justify-start items-center gap-3.5">
                 <img class="shadow-xl" style="width: auto; height: 360px; border-top-left-radius: 160px; border-bottom-right-radius: 160px" src="/peterson.jpg" />
                 <div class="self-stretch justify-start items-start gap-14">
-                    <div class="w-7 h-5 justify-center text-xl font-medium ">1631</div>
-                    <div class="w-52 h-5 text-right justify-center text-m ">Rembrandt Harmensz. van Rijn</div> <br>
+                    <div class="w-7 h-5 justify-center text-xl font-medium ">1901</div>
+                    <div class="w-52 h-5 text-right justify-center text-m ">Juhan Peterson</div> <br>
                 </div>
-                <div class="w-64 h-5 justify-center mb-4 text-xl font-bold ">Old Man with a Gold Chain</div>
-                <div class="w-64 justify-center text-m">This evocative character study is an early example of a type of subject that preoccupied the great Dutch master Rembrandt van Rijn throughout his long career. Although his large output included landscapes, genre paintings, and the occasional still.</div>
+                <div class="w-64 h-5 justify-center mb-4 text-xl font-bold ">Last Operator</div>
+                <div class="w-64 justify-center text-m">Juhan ran the Kiiu windmill until it ceased operations in the 1920s. Known for his storytelling and mechanical skills, he was beloved by villagers for keeping the mill alive through war and famine.</div>
             </div>
+
         </div>
     </div>
-
 </div>
+
 
 <div class="w-full h-fit justify-center items-center">
     <div class="relative space-y-4 z-10 h-full py-16 mx-32 text-white justify-center items-center text-center font-primary">
