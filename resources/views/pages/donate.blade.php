@@ -14,10 +14,11 @@
       </p>
 
       <div class="mb-8">
-        <h2 class="text-lg text-zinc-800 mb-2 font-lato">Also feel free to reach out</h2>
-        <div class="p-3 bg-zinc-100 rounded-md flex justify-between items-center text-zinc-500 text-lg font-lato cursor-pointer">
+        <h2 class="text-lg text-zinc-800 font-lato">Also feel free to reach out:</h2>
+        <div class="px-3 mb-2 bg-zinc-100 rounded-md flex justify-between items-center text-zinc-500 text-lg font-lato cursor-pointer">
           kiiutuulik@business.ee <br>
-          Tel +372 5555 5555
+          Tel +372 5555 5555 <br>
+          EE40 2701 2199 4164 5693
           <div class="w-4 h-4 relative overflow-hidden">
             <div class="w-2.5 h-1.5 absolute bg-zinc-800 left-[1.9px] top-[3.5px]"></div>
           </div>
