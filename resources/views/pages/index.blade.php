@@ -252,7 +252,6 @@
     <div class="relative pt-6 z-10 mx-32 text-white flex items-center gap-6">
         <div class="inline-flex justify-center w-24 items-center gap-16 text-center">
 
-            <!-- Person 1 -->
             <div class="inline-flex w-12 flex-col justify-center items-center gap-3.5">
                 <img class="shadow-xl" style="width: auto; height: 360px; border-top-right-radius: 160px; border-bottom-left-radius: 160px" src="/lydia.jpg" />
                 <div class="self-stretch justify-center items-start gap-14">
@@ -263,7 +262,6 @@
                 <div class="w-64 justify-center text-m">Lydia helped maintain the Kiiu windmill after her father's death, becoming a key figure in keeping local grain production running during the harsh winters of the 1830s.</div>
             </div>
 
-            <!-- Person 2 -->
             <div class="inline-flex w-12 flex-col justify-start items-center gap-3.5">
                 <img class="shadow-xl" style="width: auto; height: 360px; border-top-left-radius: 160px; border-top-right-radius: 160px" src="/pats.jpg" />
                 <div class="self-stretch justify-start items-start gap-14">
@@ -274,7 +272,6 @@
                 <div class="w-64 justify-center text-m">Peeter was the original builder of the Kiiu windmill. A skilled craftsman, he designed the mill using local limestone and oak, blending Baltic practicality with elegant engineering.</div>
             </div>
 
-            <!-- Person 3 -->
             <div class="inline-flex w-12 flex-col justify-start items-center gap-3.5">
                 <img class="shadow-xl" style="width: auto; height: 360px; border-top-left-radius: 160px; border-bottom-right-radius: 160px" src="/peterson.jpg" />
                 <div class="self-stretch justify-start items-start gap-14">
