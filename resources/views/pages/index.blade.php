@@ -22,7 +22,7 @@
                 <a href="{{route('donate')}}">Donate</a>
             </button>
             <button
-                class="bg-primary hover:bg-white text-white hover:text-primary border-primary transition px-8 py-3 rounded-xl text-lg font-semibold">
+                class="bg-black hover:bg-white text-white hover:text-primary border-primary transition px-8 py-3 rounded-xl text-lg font-semibold">
                 <a href="{{route('shop')}}">Shop</a>
             </button>
         </div>
@@ -267,7 +267,7 @@
                 <div class="w-64 justify-center  text-m">This evocative character study is an early example of a type of subject that preoccupied the great Dutch master Rembrandt van Rijn throughout his long career. Although his large output included landscapes, genre paintings, and the occasional still.</div>
             </div>
             <div class="inline-flex w-12 flex-col justify-start items-center gap-3.5">
-                <img class="shadow-xl" style="width: auto; height: 360px; border-top-left-radius: 160px; border-bottom-right-radius: 160px" src="/download" />
+                <img class="shadow-xl" style="width: auto; height: 360px; border-top-left-radius: 160px; border-bottom-right-radius: 160px" src="/peterson.jpg" />
                 <div class="self-stretch justify-start items-start gap-14">
                     <div class="w-7 h-5 justify-center text-xl font-medium ">1631</div>
                     <div class="w-52 h-5 text-right justify-center text-m ">Rembrandt Harmensz. van Rijn</div> <br>
